@@ -1,0 +1,1642 @@
+[
+  {
+    "object": "blue pen",
+    "model": "GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "blue pen",
+        "attributes": "A slim blue plastic pen with a pointed tip, lying diagonally near the lower-left/middle area of the table, partially tucked under a small eraser and close to a green pen and a black tube.",
+        "position_in_scene": "Lower-left to center-left area of the table, below the white-and-orange box and slightly left of the black cylindrical object."
+      },
+      "grasp": {
+        "type": "precision pinch grasp",
+        "contact_zone": "Grasp the pen on its cylindrical barrel near the middle, avoiding the tip and any cap end.",
+        "accessibility": "Moderately accessible; the pen is mostly visible but partially occluded by nearby objects, so the robot should approach from above with a narrow gripper and enough clearance to avoid contact with the eraser and surrounding items."
+      },
+      "planning": {
+        "approach": "Move the gripper above the visible midpoint of the blue pen along a top-down path, checking for collisions with the nearby eraser, green pen, and black tube.",
+        "pre_grasp_orientation": "Align the gripper jaws parallel to the pen axis with a slight vertical descent angle, keeping the pen centered between the fingertips.",
+        "grasp_contact": "Close the fingertips gently on the pen barrel at the center section until stable contact is achieved without sliding.",
+        "lift_stabilization": "Lift vertically a small distance, then hold steady while monitoring for slip or unintended dragging against adjacent objects."
+      },
+      "use": [
+        {
+          "description": "Writing or marking on paper.",
+          "link_to_grasp": "The precision pinch grasp places the pen in a controlled writing-ready pose with the tip exposed and aligned for use.",
+          "physical_constraints": "Requires stable tip orientation, limited finger pressure, and clearance for the hand to rotate into a writing angle."
+        },
+        {
+          "description": "Pointing to or annotating items during a discussion.",
+          "link_to_grasp": "The same grasp allows quick repositioning of the pen for gesturing or tapping while maintaining control.",
+          "physical_constraints": "Must avoid excessive force on the tip and preserve balance so the pen does not slip during hand motion."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The blue pen is rigid enough to be grasped at the barrel and is not fixed to the table or tangled with other objects.",
+        "uncertainty_handling": "If the exact pen boundary is uncertain due to occlusion, the robot should use a visual re-check from above, choose the clearest exposed barrel region, and approach slowly with force-limited finger closure."
+      }
+    },
+    "response_time": 7.845165252685547
+  },
+  {
+    "object": "blue pen",
+    "model": "Qwen 3.5 9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "Blue Pen",
+        "attributes": "Standard ballpoint pen body, translucent blue/green cap, clicker mechanism",
+        "position_in_scene": "Lying flat on the desk surface, partially tucked behind the wooden block with the sponge, located beneath the black pump handle."
+      },
+      "grasp": {
+        "type": "Lateral PINCH",
+        "contact_zone": "Between the thumb and index finger on the barrel of the pen, avoiding the grip grip structure.",
+        "accessibility": "Accessible but requires a shadow pass due to being covered by the wooden block."
+      },
+      "planning": {
+        "approach": "Approach from above while maneuvering the gripper around the overhanging wooden block(sponges).",
+        "pre_grasp_orientation": "Z-axis down, orienting the finger islands sideways to enclose the pen's width.",
+        "grasp_contact": "Fingers make firm contact on the barrel; ensuring the internet connection or pressure does not depress the clicker.",
+        "lift_stabilization": "Lift vertically with a slight rotation to expose the pen from underneath the sponge logistics."
+      },
+      "use": [
+        {
+          "description": "Writing or taking notes.",
+          "link_to_grasp": "A precise lateral pinch provides the stability necessary for controlled hand movements.",
+          "physical_constraints": "User must not accidentally depress the clicker which activates the ink flow during writing."
+        },
+        {
+          "description": "As a awl or tool for puncturing materials like the cardboard sheet.",
+          "link_to_grasp": "The lateral pinch allows for the application of sharp forward thrust along the barrel.",
+          "physical_constraints": "The cap must be on to prevent ink leakage and the clicker from being pushed into a connected socket."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The blue pen is assumed to be lit solely adjacent to the blue soda can.",
+        "uncertainty_handling": "The grasp must be executed using a low-force grip. SeRoman objects are sensitive to high loading to avoid breaking."
+      }
+    },
+    "response_time": 10.840075254440308
+  },
+  {
+    "object": "blue pen",
+    "model": "Gemini 3.1 Flash Image",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "blue pen",
+        "attributes": "plastic, blue color, long cylindrical shape with tapered ends, clip near cap (not clearly visible in this orientation)",
+        "position_in_scene": "Center of table, oriented diagonally, partially obscured and directly adjacent to the end of a black pump."
+      },
+      "grasp": {
+        "type": "Schunk 3-jaw gripper (or similar multi-fingered gripper for robustness)",
+        "contact_zone": "The central, exposed cylindrical section of the pen barrel, avoiding the tip and the obstructed section next to the pump.",
+        "accessibility": "Medium accessibility. A simple 2-jaw top-down grasp is risky due to the object's slim profile and proximity to the larger pump. Sideways approach is partially blocked by the green utility knife."
+      },
+      "planning": {
+        "approach": "From the 'free' side, opposite to the pump, with a low-angle trajectory to avoid colliding with other objects. A rotational approach path could also be considered to best align the fingers.",
+        "pre_grasp_orientation": "Align the gripper axis parallel to the pen's main axis.",
+        "grasp_contact": "Simultaneous three-point (or two opposed points with high friction) contact along the longest visible axis. The fingertips must wrap significantly around the barrel.",
+        "lift_stabilization": "A controlled, vertical lift to create initial separation from the table. The grip force should be modulated based on haptic feedback to prevent slippage without crushing the plastic."
+      },
+      "use": [
+        {
+          "description": "Writing test: Transport to a predetermined 'paper' zone and perform a standard drawing or writing task.",
+          "link_to_grasp": "This requires a secondary re-grasp or a complex in-hand manipulation maneuver to shift from the cylinder grasp to a proper 'tripod' or precision writing grasp at the tip.",
+          "physical_constraints": "Pen tip must retain correct orientation to make contact with paper; force application must be perpendicular to paper surface within a certain tolerance to ensure mark making."
+        },
+        {
+          "description": "Moving the pen to a container/bin:",
+          "link_to_grasp": "The cylindrical grasp is suitable for holding the pen during transit over substantial distances.",
+          "physical_constraints": "Gravity and acceleration during motion must not exceed the frictional force of the grasp. Safe release over a specific location is needed."
+        }
+      ],
+      "robustness": {
+        "assumptions": "Assumes the table surface is flat, the pen is not adhered to any object, and that the gripper material can providing adequate static friction against the pen's plastic surface.",
+        "uncertainty_handling": "Haptic feedback for slippage detection will precipitate an adaptive increase in grip force. If a 3-jaw grasp is impossible, visual servoing must be used for precise 2-jaw alignment, with a possible 're-try' strategy."
+      }
+    },
+    "response_time": 12.235747575759888
+  },
+  {
+    "object": "blue pen",
+    "model": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b-2512",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "blue pen",
+        "attributes": "cylindrical shape, approximately 15 cm in length, blue body with white tip, appears to be a retractable ballpoint pen",
+        "position_in_scene": "lower-center of the image, placed horizontally on the desk near a white box and an orange ball"
+      },
+      "grasp": {
+        "type": "parallel-jaw gripper",
+        "contact_zone": "mid-section of the pen body, avoiding the cap and writing tip",
+        "accessibility": "moderate, slightly obstructed by nearby objects but accessible with proper arm articulation"
+      },
+      "planning": {
+        "approach": "vertical downward approach from above at a slight angle to align with the pen\u2019s axis",
+        "pre_grasp_orientation": "pen oriented horizontally, gripper jaws aligned parallel to pen's long axis",
+        "grasp_contact": "gentle closing of jaws around pen\u2019s mid-section, ensuring stable grip without excessive pressure",
+        "lift_stabilization": "slow upward lift to avoid slipping, followed by slight rotation to confirm secure hold"
+      },
+      "use": [
+        {
+          "description": "writing or drawing on paper, taking notes, or sketching diagrams",
+          "link_to_grasp": "secure grip allows controlled movement for precise marking on flat surfaces",
+          "physical_constraints": "pen must be oriented upright for smooth ink flow; minimal pressure required for writing"
+        },
+        {
+          "description": "pointing or indicating during presentations or meetings",
+          "link_to_grasp": "stable grasp enables accurate pointing gestures without wobbling",
+          "physical_constraints": "pen tip must be free of debris to ensure clear indication; grip must be firm to avoid dropping"
+        }
+      ],
+      "robustness": {
+        "assumptions": "pen is not capped, ink is functional, and the gripper has sufficient force to hold without crushing",
+        "uncertainty_handling": "use force control to adjust grip strength based on pen material and surface texture; employ visual feedback to confirm position before grasp"
+      }
+    },
+    "response_time": 5.4086058139801025
+  },
+  {
+    "object": "blue pen",
+    "model": "Seed 2.0 Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "blue ballpoint pen",
+        "attributes": "retractable plastic ballpoint pen, solid blue plastic casing, pointed writing tip, retractable click top, standard office pen dimensions, undamaged functional body",
+        "position_in_scene": "located on the light wooden office table, partially obscured by a black scrub sponge with a wooden base, lying horizontally with its writing tip pointing toward the bottom edge of the frame, positioned between the scrub sponge and the red hose of the black bicycle pump"
+      },
+      "grasp": {
+        "type": "precision pinch grasp",
+        "contact_zone": "the middle third of the pen's body, between its click top and writing tip, to avoid interfering with functional ends of the pen",
+        "accessibility": "partially accessible, only ~30% of the pen's length is exposed above the scrub sponge, requiring minor repositioning of the sponge to access the full pen body for a stable grasp"
+      },
+      "planning": {
+        "approach": "approach the pen from above the table, navigating the gap between the scrub sponge and the bicycle pump to avoid collisions with surrounding small objects like the USB drive and deflated balloons",
+        "pre_grasp_orientation": "align the gripper's pinch axis parallel to the pen's long axis, so gripper fingers close perpendicular to the pen's length to secure a firm hold",
+        "grasp_contact": "close gripper fingers around the pen's midsection, apply consistent moderate pressure to hold the pen without cracking the plastic casing or causing slippage",
+        "lift_stabilization": "lift the pen straight upward 10cm above the table surface, pause 0.5 seconds to confirm no slippage, then reorient the pen for its intended use"
+      },
+      "use": [
+        {
+          "description": "write handwritten notes on blank paper surfaces",
+          "link_to_grasp": "retain the same precision pinch grasp, rotate the gripper 90 degrees to align the pen's writing tip with the paper, maintain grip to control writing pressure",
+          "physical_constraints": "must maintain a 30-45 degree tip angle relative to paper to enable consistent ink flow, avoid excessive pressure that would break the pen tip or tear paper"
+        },
+        {
+          "description": "mark straight measurement lines on flat craft materials like cardboard or poster board",
+          "link_to_grasp": "keep the precision pinch grasp, adjust the robot's wrist position to maintain steady tip contact while moving the pen along a straight guide to create clear marks",
+          "physical_constraints": "requires a rigid, flat marking surface to prevent tip skipping, the surface must be compatible with ballpoint ink to produce visible, permanent marks"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the pen is structurally intact with no damage that impairs grasping or use, the scrub sponge resting on the pen is lightweight enough to be repositioned easily",
+        "uncertainty_handling": "if initial grasp slips, return to pre-grasp position, adjust gripper opening to align with the pen's shifted position, and re-grasp 1cm lower along the pen's body; if the pen is too obscured, first nudge the sponge 2cm to the side to fully expose the pen before attempting to grasp again"
+      }
+    },
+    "response_time": 46.11577391624451
+  },
+  {
+    "object": "grey mug",
+    "model": "GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "grey mug",
+        "attributes": "Dark grey ceramic mug with a right-side handle, cylindrical body, open top, and a paper sheet resting partly over the rim. It appears empty and stable on the tabletop.",
+        "position_in_scene": "Located on the right side of the table near the image edge, slightly below center, with the handle facing toward the left side of the mug from the viewer\u2019s perspective."
+      },
+      "grasp": {
+        "type": "Power grasp using the handle",
+        "contact_zone": "Gripper fingers should contact the outer surface of the handle, with the thumb opposing on the inner side of the handle; avoid squeezing the mug body or the paper on top.",
+        "accessibility": "The handle is clearly exposed and reachable from the left side of the mug; the main limitation is nearby clutter and the paper sheet partially covering the mug opening."
+      },
+      "planning": {
+        "approach": "Approach from the side of the handle with a low, level trajectory, keeping the end-effector clear of the paper and neighboring objects.",
+        "pre_grasp_orientation": "Orient the gripper opening parallel to the handle curvature, with fingers aligned around the handle and the palm perpendicular to the mug side.",
+        "grasp_contact": "Close the gripper gently around the handle until firm contact is achieved, ensuring the mug is secured without deforming or pushing the paper.",
+        "lift_stabilization": "Lift vertically a short distance while maintaining wrist level and monitoring for slip; if the mug tilts due to the paper, reduce speed and re-center the grasp."
+      },
+      "use": [
+        {
+          "description": "Drink holder for hot or cold beverages",
+          "link_to_grasp": "The handle grasp lets a robot transport the mug upright without touching the drinking surface.",
+          "physical_constraints": "Keep the mug level to avoid spills; ensure contents are not too hot for nearby equipment or humans."
+        },
+        {
+          "description": "Container for moving small desk items or temporary storage",
+          "link_to_grasp": "A secure handle grasp allows the robot to relocate the mug while preserving access to the interior once set down.",
+          "physical_constraints": "Do not overload the mug; maintain upright orientation to prevent items from falling out."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The mug is lightweight, empty or only lightly filled, and the handle is structurally sound and accessible from the side.",
+        "uncertainty_handling": "If the paper obstructs the top or the handle is partially occluded, the robot should re-scan, adjust viewpoint, and perform a cautious grasp with reduced closing force and a slip check after lift."
+      }
+    },
+    "response_time": 7.8588645458221436
+  },
+  {
+    "object": "grey mug",
+    "model": "Qwen 3.5 9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "grey mug",
+        "attributes": "cylindrical ceramic cup with a handle",
+        "position_in_scene": "top-left corner near the document pile"
+      },
+      "grasp": {
+        "type": "side grasp",
+        "contact_zone": "handle or side of the mug barrel",
+        "accessibility": "accessible from above with clearance around"
+      },
+      "planning": {
+        "approach": "approach from top-left towards the mug handle",
+        "pre_grasp_orientation": "gripper parallel to table surface",
+        "grasp_contact": "close around the handle or the upper rim",
+        "lift_stabilization": "tilt gripper to lift base off table then lift vertically"
+      },
+      "use": [
+        {
+          "description": "drinking liquid from the cup",
+          "link_to_grasp": "maintain upright orientation relative to gravity",
+          "physical_constraints": "must keep handle accessable for turning"
+        },
+        {
+          "description": "placing the cup on a table surface",
+          "link_to_grasp": "reverse of lift action to lower base gently",
+          "physical_constraints": "ensure stable downstroke to avoid spills"
+        }
+      ],
+      "robustness": {
+        "assumptions": "mug is empty and lightweight enough to lift",
+        "uncertainty_handling": "verify handle presence before grasp initiation"
+      }
+    },
+    "response_time": 21.546884059906006
+  },
+  {
+    "object": "grey mug",
+    "model": "Gemini 3.1 Flash Image",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "grey mug",
+        "attributes": "dark grey ceramic, cylindrical body, single loop handle on the right side",
+        "position_in_scene": "located on the right side of the image, partially obscured by paper on top, resting directly on the wooden table surface, to the left of the computer mouse"
+      },
+      "grasp": {
+        "type": "side-parallel-jaw-grasp",
+        "contact_zone": "The outer surface of the cylindrical body, specifically on the left and right sides of the main body, below the paper and above the base.",
+        "accessibility": "Partially obstructed. The handle is mostly accessible from the right. The top is covered by paper, preventing a top-down grasp. Access to the main body is open from the front-left and front-right sides. A grasp around the cylindrical body is most feasible from these open sides, avoiding the handle and the top paper."
+      },
+      "planning": {
+        "approach": "From the front, approaching the main body horizontally to avoid collision with the paper on top.",
+        "pre_grasp_orientation": "Align parallel jaws to be vertical, perpendicular to the cylindrical axis, and positions them to straddle the mug's body without contacting the handle.",
+        "grasp_contact": "Simultaneous closure of both jaws on the outer ceramic surface, applying a preset pinch force sufficient to counter gravity and estimated friction coefficients for ceramic.",
+        "lift_stabilization": "Lift vertically initially to assure separation from the table, then move horizontally, maintaining the grasp force and monitor for slips."
+      },
+      "use": [
+        {
+          "description": "contain liquid for drinking",
+          "link_to_grasp": "This grasp configuration is suitable for containment and general repositioning, but not for pouring or tilting as part of a drinking action due to occlusion of the top edge by paper and lack of specific handle control.",
+          "physical_constraints": "Weight of liquid may exceed friction force if the mug is heavily overfilled; center of mass shifts; potential temperature constraints for gripper material if mug is full of hot liquid."
+        },
+        {
+          "description": "act as a weighted base to hold paper down",
+          "link_to_grasp": "This is its current primary function and can be maintained simply by not moving the mug.",
+          "physical_constraints": "Requires sufficient mass to counter external forces on the paper (e.g., wind, movement)."
+        }
+      ],
+      "robustness": {
+        "assumptions": "Standard ceramic mug surface friction; the paper on top is thin and won't significantly interfere with side grasp; accurate object position sensing despite the obstruction.",
+        "uncertainty_handling": "Monitor gripper force feedback. If slippage is detected during lifting, increase grasping force or abort and re-attempt. Vision sensing should focus on estimating the body diameter despite the occlusion."
+      }
+    },
+    "response_time": 7.395469665527344
+  },
+  {
+    "object": "grey mug",
+    "model": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b-2512",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "grey_mug",
+        "attributes": "small, cylindrical, transparent plastic with a black handle and a white base; appears to be part of a set of small containers or tools, approximately 10 cm in height",
+        "position_in_scene": "not present_in_scene"
+      },
+      "grasp": {
+        "type": "power_grasp",
+        "contact_zone": "midsection_and_base",
+        "accessibility": "moderate_due_to_size_and_shape"
+      },
+      "planning": {
+        "approach": "vertical_approach_from_above",
+        "pre_grasp_orientation": "end_effector_aligned_with_mug_axis",
+        "grasp_contact": "fingers_encircle_mug_body_and_thumb_supports_base",
+        "lift_stabilization": "gentle_lift_with_rotational_stabilization_to_prevent_rolling"
+      },
+      "use": [
+        {
+          "description": "container_for_small_items_or_tools",
+          "link_to_grasp": "secure_grasp_ensures_items_inside_do_not_spill",
+          "physical_constraints": "must_be_upright_or_tilted_less_than_30_degrees_to_prevent_contents_from_falling_out"
+        },
+        {
+          "description": "gripper_calibration_object",
+          "link_to_grasp": "consistent_shape_allows_for_testing_grasp_force_and_stability",
+          "physical_constraints": "must_be_held_straight_for_accurate_force_sensing"
+        }
+      ],
+      "robustness": {
+        "assumptions": "object_is_stationary_and_not_covered_by_other_items; gripper_fingers_are_in_good_condition_with_no_damage",
+        "uncertainty_handling": "use_force_control_to_adjust_grasp_pressure_based_on_variations_in_material_and_surface_texture; employ_sensor_fusion_for_precise_positioning"
+      }
+    },
+    "response_time": 6.157084226608276
+  },
+  {
+    "object": "grey mug",
+    "model": "Seed 2.0 Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "grey mug",
+        "attributes": "glossy grey ceramic, cylindrical body, curved C-shaped handle, smooth surface, has a thin sheet of paper partially resting on its upper rim",
+        "position_in_scene": "right side of the light wooden office desk, positioned to the right of the black balloon pump, below the black computer mouse, with a popsicle stick directly to its left"
+      },
+      "grasp": {
+        "type": "handle pinch grasp with secondary body support",
+        "contact_zone": "gripper pinch pads on the inner and outer walls of the mug's C-shaped handle, a third support finger resting on the mug's outer cylindrical side to prevent tipping",
+        "accessibility": "fully accessible except for a thin sheet of paper on its rim, which does not block access to the handle or mug body; no large objects block approach to the mug from above"
+      },
+      "planning": {
+        "approach": "move the robotic end-effector down from the top-right of the desk to align with the mug's handle, clearing the thin sheet of paper on the mug's rim with a small horizontal adjustment",
+        "pre_grasp_orientation": "orient the gripper's pinch pads parallel to the plane of the mug's handle, with enough clearance to slot around the C-shaped handle without colliding with the mug's body",
+        "grasp_contact": "close the gripper to clamp the inner and outer surfaces of the mug's handle, then extend the support finger to rest lightly on the mug's outer cylindrical wall to add stability",
+        "lift_stabilization": "lift the mug straight up 10cm off the desk first to confirm a secure, non-slipping grasp, keep the mug's base level throughout movement to avoid spilling any contents"
+      },
+      "use": [
+        {
+          "description": "Hold the mug to allow a user to drink from its rim",
+          "link_to_grasp": "maintain the same handle and body support grasp, tilt the mug's rim slowly toward the user's mouth while keeping the base supported to control liquid flow",
+          "physical_constraints": "mug contents weight cannot exceed the gripper's 1kg payload limit; the mug must be kept level except when tilting to drink to prevent spills"
+        },
+        {
+          "description": "Relocate the mug to clear space on the office desk",
+          "link_to_grasp": "use the full secure grasp (handle pinch + body support) to lift and transport the mug to a vacant flat area of the desk",
+          "physical_constraints": "the target placement area must be large enough to support the mug's 8cm diameter base; no obstacles can block the movement path to the target location"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the mug contains no hazardous materials; the thin paper on its rim adds negligible weight that will not unbalance the grasp; the mug is stationary on the desk before grasping",
+        "uncertainty_handling": "if the gripper detects slippage during the initial lift, reposition the grasp to apply a firmer hold on the mug's body; if the paper on the rim catches on the gripper during approach, adjust the end-effector trajectory to push the paper aside before completing the grasp"
+      }
+    },
+    "response_time": 43.47898626327515
+  },
+  {
+    "object": "computer mouse",
+    "model": "GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "computer mouse",
+        "attributes": "Black wired computer mouse with a curved low-profile shell, a visible red scroll/button area, and a cable exiting from the front-left side",
+        "position_in_scene": "On the right side of the table near a dark mug and a sheet of paper, partially unobstructed and lying flat on the desk"
+      },
+      "grasp": {
+        "type": "top-down pinch or side grasp with a two-finger gripper",
+        "contact_zone": "Upper shell around the center mass, avoiding the scroll wheel and cable strain area",
+        "accessibility": "Moderately accessible from above; clear enough for a vertical approach, but nearby paper and mug require careful end-effector placement"
+      },
+      "planning": {
+        "approach": "Move the gripper above the mouse from a top-down direction, align with the long axis of the device, and descend slowly while monitoring nearby obstacles",
+        "pre_grasp_orientation": "Gripper opening parallel to the mouse body with fingers aligned to pinch the left and right sides of the shell",
+        "grasp_contact": "Close fingers gently on the side walls of the mouse at its midsection, applying enough force to secure the object without pressing the scroll wheel or top buttons",
+        "lift_stabilization": "Lift vertically a short distance while maintaining a centered grasp and minimal torque on the cable to prevent dragging or rotation"
+      },
+      "use": [
+        {
+          "description": "Move a computer cursor for desktop interaction",
+          "link_to_grasp": "The stable body grasp allows the robot to place the mouse onto a surface and guide it precisely",
+          "physical_constraints": "Requires the cable to remain slack and the base to stay in contact with a flat tabletop"
+        },
+        {
+          "description": "Demonstrate or test human-computer interaction tasks such as clicking and dragging",
+          "link_to_grasp": "The grasp provides controlled placement so the robot can position the mouse for operation",
+          "physical_constraints": "Must avoid blocking the buttons or scroll wheel and keep the mouse oriented correctly on a smooth surface"
+        }
+      ],
+      "robustness": {
+        "assumptions": "The mouse is rigid, lightweight, and not significantly occluded; the cable can be moved without entanglement",
+        "uncertainty_handling": "If the exact center is uncertain, the robot should re-observe from above, estimate the object axis, and approach with a slower, force-limited grasp to reduce slip or accidental button activation"
+      }
+    },
+    "response_time": 8.78036379814148
+  },
+  {
+    "object": "computer mouse",
+    "model": "Qwen 3.5 9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "wireless computer mouse",
+        "attributes": "black ergonomic form factor with a visible scroll wheel and a red indicator light, lying on a light wooden surface",
+        "position_in_scene": "upper left quadrant, partially obscured by a grey coffee mug and a white document, adjacent to the black handle of an air pump"
+      },
+      "grasp": {
+        "type": "lateral pinch",
+        "contact_zone": "the sides of the curved mouse body, specifically the mid-section between the thumb and index finger placement area",
+        "accessibility": "moderate due to partial occlusion by paper and mug, but the side profile is clearly visible and reachable"
+      },
+      "planning": {
+        "approach": "vertical approach from above, moving slightly right to avoid the overlapping paper document",
+        "pre_grasp_orientation": "end-effector held vertically perpendicular to the table surface",
+        "grasp_contact": "fingertips or suction cup tips making symmetric contact on the left and right lateral edges of the casing",
+        "lift_stabilization": "maintain slight torque to counteract any slight forward tilt caused by the curved top surface during lifting"
+      },
+      "use": [
+        {
+          "description": "Used as a pointing device to control a computer cursor on a connected display",
+          "link_to_grasp": "requires a secure standard right-handed or left-handed orientation to fit comfortably in a user's palm",
+          "physical_constraints": "must be lifted and oriented horizontally parallel to the surface to function correctly"
+        },
+        {
+          "description": "Served as a small dummy object for a robot's grasp stability test to verify open-loop versus closed-loop control performance",
+          "link_to_grasp": "the robot must replicate the lateral pinch to ensure the gripper compliancy or force control is sufficient",
+          "physical_constraints": "the object is lightweight and has a smooth plastic surface, requiring force control to prevent slipping"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the object is currently stationary on the table and is dry",
+        "uncertainty_handling": "vision system must filter out the white paper and grey mug in the field of view to confirm the dark silhouette of the mouse before attempting manipulation"
+      }
+    },
+    "response_time": 18.16412329673767
+  },
+  {
+    "object": "computer mouse",
+    "model": "Gemini 3.1 Flash Image",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "computer mouse",
+        "attributes": "black, ergonomic shape, includes red and orange sections (likely buttons and scroll wheel accents), wireless (no cord visible), small form factor",
+        "position_in_scene": "upper right area of the table, located between the top end of the black balloon pump and the dark grey mug, partially obscured"
+      },
+      "grasp": {
+        "type": "top-down parallel-jaw grasp",
+        "contact_zone": "The two flat parallel sides of the mouse (left and right flanks).",
+        "accessibility": "Partially occluded from the top right by paper and a mug. Accessible from the left (near the pump) and from a strict top-down approach, provided the mug is avoided."
+      },
+      "planning": {
+        "approach": "From a high, safe z-position, descend vertically towards the mouse, aiming the center of the gripper between the mouse flanks.",
+        "pre_grasp_orientation": "Align the parallel jaws of the gripper with the longitudinal axis of the mouse, or perpendicular to it for a side grasp. Since a top-down grasp is safest, align the jaws longitudinally to contact the curved sides.",
+        "grasp_contact": "Simultaneously actuate gripper jaws inwards until enough normal force is detected to secure the object, ensuring the gripper pads are below the mouse's vertical center of mass without scraping the buttons (if possible).",
+        "lift_stabilization": "Apply a minimum lift threshold for a vertical translation, monitoring force sensors to detect slippage. Move to a safe clear height before performing any horizontal movements to avoid collisions with the mug, pump, or paper."
+      },
+      "use": [
+        {
+          "description": "operate computer pointer",
+          "link_to_grasp": "This grasp configuration is standard for picking up the mouse but must be transitioning to an 'operational' grasp (e.g., human-style hand interface) if the robot needs to move the mouse against a surface for pointer interaction.",
+          "physical_constraints": "Surface friction required. High-resolution position sensors needed for precise pointer control."
+        },
+        {
+          "description": "re-orient or sort for storage",
+          "link_to_grasp": "The current side grasp and lift are ideal for simply moving and sorting the object without activating any functions.",
+          "physical_constraints": "Weight is low, but off-center, making it stable in the gripper. Constraints include other objects during transport."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The underlying table surface is rigid. The mouse is functional and not adhered to the desk. The visible sides are stable contact patches.",
+        "uncertainty_handling": "Use force feedback to avoid excessive crushing. If a reliable width is not found during jaw closure, abort the grasp as a collision error may have occurred with the balloon pump or mug. The occluding paper adds depth uncertainty, so a high vertical approach path is critical."
+      }
+    },
+    "response_time": 7.770323038101196
+  },
+  {
+    "object": "computer mouse",
+    "model": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b-2512",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "computer mouse",
+        "attributes": "small, elongated, cylindrical, wrapped in blue and white cardboard packaging, connected to a USB cable; appears to be a standard wired computer mouse",
+        "position_in_scene": "lower left corner of the image, partially obscured by cardboard packaging, lying horizontally on the wooden table"
+      },
+      "grasp": {
+        "type": "precision grasp",
+        "contact_zone": "base of the mouse body and the USB cable end (for stabilization)",
+        "accessibility": "moderate; partially accessible due to packaging, but the mouse is oriented in a way that allows some exposure of the sides and base"
+      },
+      "planning": {
+        "approach": "top-down approach from above, aligned perpendicular to the mouse's length",
+        "pre_grasp_orientation": "robot end-effector fingers oriented parallel to the mouse\u2019s long axis, with slight inward tilt to accommodate the grip",
+        "grasp_contact": "fingers close around the sides of the mouse body, ensuring the grip is firm yet gentle to avoid damaging the USB cable or internal components",
+        "lift_stabilization": "lift vertically with a slight forward tilt to keep the USB cable from tangling, using suction or gentle pressure on the base to stabilize"
+      },
+      "use": [
+        {
+          "description": "navigate a computer interface by moving the mouse to control the cursor on screen for tasks like document editing, graphic design, or gaming",
+          "link_to_grasp": "the mouse must be held securely to ensure smooth and precise movement, preventing slippage or unintended cursor jumps",
+          "physical_constraints": "requires a clear workspace to move the mouse without obstruction; must be connected to a USB port or wireless receiver for functionality"
+        },
+        {
+          "description": "use as a teaching tool to demonstrate robotic manipulation and precision handling in educational robotics labs or workshops",
+          "link_to_grasp": "the robot must demonstrate a controlled and repeatable grasp to illustrate proper handling techniques for delicate or small objects",
+          "physical_constraints": "requires a stable and controlled environment for the robot to handle the mouse safely, avoiding damage to the device"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the USB cable is not tangled or obstructed, the mouse is not damaged, and the robot has sufficient force control to avoid crushing the device",
+        "uncertainty_handling": "use visual feedback (e.g., cameras) to confirm the exact position and orientation of the mouse before grasping; employ force sensors to adjust grip pressure dynamically"
+      }
+    },
+    "response_time": 7.510968208312988
+  },
+  {
+    "object": "computer mouse",
+    "model": "Seed 2.0 Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "computer mouse",
+        "attributes": "black wired plastic computer mouse with a single red marking on its top surface, standard ergonomic curved shape",
+        "position_in_scene": "upper right area of the light wooden office desk, positioned to the right of the black air pump, left of the grey ceramic mug, with a small portion of its front edge covered by a white sheet of paper"
+      },
+      "grasp": {
+        "type": "precision pinch grasp",
+        "contact_zone": "left and right outer lateral sides of the mouse's curved body, avoiding the top button region to prevent accidental input",
+        "accessibility": "mostly unobstructed, only a small front portion is covered by paper, the rear and side surfaces are fully accessible for gripper approach"
+      },
+      "planning": {
+        "approach": "robotic gripper approaches the mouse from a top-down trajectory, aligned to the mouse's front-to-back long axis",
+        "pre_grasp_orientation": "gripper jaws open to match the mouse's lateral width, positioned 5cm directly above the mouse's center, parallel to the desk surface",
+        "grasp_contact": "gripper jaws close gently to secure the mouse's side surfaces, applying enough force to avoid slippage without damaging the mouse's casing",
+        "lift_stabilization": "after grasp confirmation, lift the mouse 10cm vertically off the desk, pause 0.5 seconds to verify stable grip before any repositioning"
+      },
+      "use": [
+        {
+          "description": "Operate the mouse to control a connected computer's on-screen cursor for navigation and input tasks",
+          "link_to_grasp": "The same precision pinch grasp is maintained to slide the mouse across the desk surface, with minor force adjustments to keep the mouse stable during movement",
+          "physical_constraints": "Requires a flat, tracking-compatible desk surface to maintain cursor accuracy, cannot be used for this purpose if lifted continuously off the surface"
+        },
+        {
+          "description": "Relocate the mouse to clear desk space for placing or accessing other items (like the air pump or mug)",
+          "link_to_grasp": "The initial lifting grasp is reused to transport the mouse to a new stable desk location, no grip modification needed",
+          "physical_constraints": "The new placement location must be flat and within the desk boundaries to prevent the mouse from falling and sustaining damage"
+        }
+      ],
+      "robustness": {
+        "assumptions": "The mouse's plastic surface is free of slippery contaminants, the robotic gripper's jaw range is sufficient to fit the mouse's width",
+        "uncertainty_handling": "If the initial approach is obstructed by the overlying paper, the gripper retracts 2cm, shifts to the mouse's unobstructed rear side to complete the grasp, and increases grip force slightly if slippage is detected"
+      }
+    },
+    "response_time": 64.53877663612366
+  },
+  {
+    "object": "orange balloon",
+    "model": "GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "orange balloon",
+        "attributes": "Small deflated latex balloon, bright orange color, lightweight, flexible, and easily deformable, lying loose on the tabletop near the black cylindrical object and below the package of balloons.",
+        "position_in_scene": "Lower-right of the central object cluster, slightly right of center in the image, on the tabletop beside the black tube and near the mug."
+      },
+      "grasp": {
+        "type": "precision pinch grasp",
+        "contact_zone": "Use the fingertips to contact the balloon near its thicker neck or a folded section of the latex body, avoiding the thin stretched membrane as much as possible.",
+        "accessibility": "Highly accessible on the open tabletop, but the balloon is thin, slippery, and partially unfolded, so a gentle approach with low grasp force is required."
+      },
+      "planning": {
+        "approach": "Move the gripper above the balloon from a top-down direction, aligning with the balloon's longest visible axis and clearing nearby objects.",
+        "pre_grasp_orientation": "Keep the gripper open with parallel fingers slightly wider than the balloon section to be pinched, oriented vertically downward for a controlled pinch.",
+        "grasp_contact": "Close the fingertips slowly until the latex is lightly compressed and secured, preferably at the neck or a doubled-over portion to reduce slippage.",
+        "lift_stabilization": "Lift slowly and keep the wrist steady; if the balloon twists or slips, regrasp with a slightly lower contact point and lower force."
+      },
+      "use": [
+        {
+          "description": "Pick up and relocate the balloon for sorting or cleanup.",
+          "link_to_grasp": "The precision pinch grasp supports careful lifting without puncturing the latex.",
+          "physical_constraints": "Requires low grip force, smooth finger surfaces, and slow motion to avoid tearing or dropping."
+        },
+        {
+          "description": "Place the balloon into a container or prepare it for inflation/use in a demonstration.",
+          "link_to_grasp": "A controlled pinch allows the robot to orient the balloon before release or handoff.",
+          "physical_constraints": "The balloon is lightweight and floppy, so airflow, snags, and sharp edges must be avoided."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The orange balloon is the deflated latex object visible near the center-right of the table and is not attached to another item.",
+        "uncertainty_handling": "If the exact grasp point is uncertain, the robot should use visual servoing to refine alignment, attempt a gentle regrasp on a thicker folded region, and limit force to prevent slip or damage."
+      }
+    },
+    "response_time": 9.18095850944519
+  },
+  {
+    "object": "orange balloon",
+    "model": "Qwen 3.5 9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "Orange Balloon",
+        "attributes": "Uninflated, deflated latex state lies on a hard surface, visibily flexible and crumpled.",
+        "position_in_scene": "Near the center of the table, situated to the left of the black manual air pump."
+      },
+      "grasp": {
+        "type": "Parallel Pinch",
+        "contact_zone": "The mouth (opening) and the adjacent neck section of the deflated balloon.",
+        "accessibility": "Highly accessible, the object is lying flat and is not obscured."
+      },
+      "planning": {
+        "approach": "Align the gripper perpendicularly to the table surface and the long axis of the balloon.",
+        "pre_grasp_orientation": "Position the gripper jaws parallel to each other to match the thin, flat profile of the deflated neck.",
+        "grasp_contact": "Close the gripper fingers firmly around the neck and mouth to secure the elastic material.",
+        "lift_stabilization": "Lift vertically upwards from the table, rotating the wrist to orient the gripper such that the balloon hangs free from the gripper fingers."
+      },
+      "use": [
+        {
+          "description": "Inflate the object by attaching a pump nozzle to the gripper-held opening.",
+          "link_to_grasp": "Grasp must hold the mouth firm to prevent slippage during the high-pressure attachment of the pump.",
+          "physical_constraints": "Requires the gripper to hold a nearly sealed opening while applying external force."
+        },
+        {
+          "description": "Move to a designated location to place or drop the balloon.",
+          "link_to_grasp": "The standard grip on the deflated neck allows for a stable hold as the robot carries it over a distance.",
+          "physical_constraints": "The balloon will likely expand if air is introduced, increasing the moment of inertia the gripper must support."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The surface beneath the object is non-slip, the material of the balloon is not torn easily, and the sensor data indicates the object dimensions are roughly standard.",
+        "uncertainty_handling": "If the balloon is found too wet or slippery to grasp, the robot should attempt a different contact point, like over the broader deflated belly."
+      }
+    },
+    "response_time": 16.78674077987671
+  },
+  {
+    "object": "orange balloon",
+    "model": "Gemini 3.1 Flash Image",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "orange balloon",
+        "attributes": "orange, uninflated, latex, elongated body, wider mouth piece with a rolled rim",
+        "position_in_scene": "Resting on the wooden table surface, roughly central in the image. It is between the green uninflated balloon and the end of the black balloon pump, partially overlapping the pump and adjacent objects like a wooden stick."
+      },
+      "grasp": {
+        "type": "2-finger precision pinch",
+        "contact_zone": "Mouth piece of the balloon",
+        "accessibility": "High; the object is on a flat surface and unobstructed near the mouth piece."
+      },
+      "planning": {
+        "approach": "Top-down approach to minimize risk of slippage by applying downward force during engagement.",
+        "pre_grasp_orientation": "Fingers should be aligned to pinch the mouth piece perpendicular to its length.",
+        "grasp_contact": "Simultaneous, gentle contact from opposing fingers onto the mouth piece, followed by slight firming to ensure a secure grip.",
+        "lift_stabilization": "Gradual lift while maintaining constant pressure, with sensors monitoring for slippage or deformation."
+      },
+      "use": [
+        {
+          "description": "Load the balloon mouth over the nozzle of an air pump for inflation.",
+          "link_to_grasp": "This grasp provides the necessary dexterity and firm hold to position and stretch the balloon mouth onto a pump.",
+          "physical_constraints": "Requires precise alignment and minimal friction from the gripper to avoid tearing the latex during application onto the nozzle."
+        },
+        {
+          "description": "Stretch the balloon and place it over the mouth of a container to sort or store smaller, loose items.",
+          "link_to_grasp": "The precise pinch grasp on the rim allows the robot to prepare for and execute stretching the balloon over contrasting objects or surfaces.",
+          "physical_constraints": "Requires controlled and even stretching of the latex to avoid tearing or slipping from the desired object."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The object is assumed to be uninflated, flexible, and have a recognizable mouth piece that is accessible for grasping.",
+        "uncertainty_handling": "Tactile feedback will adjust gripping force to avoid crushing or slipping; pose estimation will be refined continuously to account for any deformable changes during the process."
+      }
+    },
+    "response_time": 8.370603561401367
+  },
+  {
+    "object": "orange balloon",
+    "model": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b-2512",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "orange foil balloon",
+        "attributes": "inflated, cylindrical shape, smooth shiny surface, soft texture, rounded tips, size approximately 10-15 cm in diameter",
+        "position_in_scene": "To the left-center of the object arrangement, lying horizontally on flat surface, partially underneath other objects (e.g., transparent plastic bag and green rubber task wiper)"
+      },
+      "grasp": {
+        "type": "envelope grasp using two-finger gripper or butterfly grasp",
+        "contact_zone": "Curved surfaces along the balloon\u2019s body and base with support on the rounded tip",
+        "accessibility": "easily accessible; partially obscured by other items but visually distinguishable; requires clearing minor obstructions"
+      },
+      "planning": {
+        "approach": "acute angle from a perpendicular direction, slightly above or from the side of the balloon\u2019s axis to avoid crushing it",
+        "pre_grasp_orientation": "finger alignment parallel to the balloon\u2019s cylindrical axis, fingers gently approaching the balloon to align for wrapping grasp",
+        "grasp_contact": "two fingers enveloping the balloon smoothly along its length, ensuring minimal deformation and contact at the widest diameter with slight inward pressure",
+        "lift_stabilization": "stabilize the rounded tip while lifting vertically with controlled force to prevent slipping due to inflation"
+      },
+      "use": [
+        {
+          "description": "playful decoration or blast test demonstration for educational and developmental purposes for children",
+          "link_to_grasp": "grasp allows precise handling for securely dropping or releasing the balloon for game play",
+          "physical_constraints": "contaminant-free hands, stable surface to reduce impact shock while releasing the balloon"
+        },
+        {
+          "description": "sensory stimulation or therapy tool as part of tactile exercises; used by therapists or caregivers for children to improve fine motor skills and sensory perception",
+          "link_to_grasp": "lightweight foam or soft-fingered robotic grip minimizes pressure, holding the balloon in place allows patient to explore its surface through touch",
+          "physical_constraints": "washable and contaminant-free surface; friction grip to avoid slipping yet gentle to stimulate rather than distress"
+        }
+      ],
+      "robustness": {
+        "assumptions": "assumes the balloon is stable on the surface, inflated but with slight give, the object has no punctures and does not deflate mid-grasp; assumes minimal contamination",
+        "uncertainty_handling": "employ force control to avoid damaging the balloon, apply pressure sensing to adjust grasp if unexpected resistance detected; provide vision-based adjustment based on color/textural feedback if any obstruction is present"
+      }
+    },
+    "response_time": 9.977950811386108
+  },
+  {
+    "object": "orange balloon",
+    "model": "Seed 2.0 Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "orange balloon",
+        "attributes": "deflated bright orange latex party balloon, intact thin latex material, fully deflated with a narrow tied neck, small standard party balloon dimensions",
+        "position_in_scene": "resting across the black hand pump on a light wooden office table, positioned between the pump and the plastic-wrapped package of unopened balloons, left of the grey ceramic mug and right of the sponge block holding a green pen"
+      },
+      "grasp": {
+        "type": "precision pinch grasp",
+        "contact_zone": "the 1cm wide tied neck of the deflated orange balloon, avoiding the soft deflated latex body to prevent slipping",
+        "accessibility": "fully unobstructed, sits on an open section of the table with no surrounding objects blocking access to the balloon's neck"
+      },
+      "planning": {
+        "approach": "approach the balloon from directly above the table surface, moving the robotic end effector slowly to align with the balloon's exposed neck",
+        "pre_grasp_orientation": "orient the gripper's two pinch pads parallel to the length of the balloon's neck to ensure a secure, even hold",
+        "grasp_contact": "close the gripper jaws gently but firmly around the balloon's neck, using enough force to secure the balloon without tearing the thin latex",
+        "lift_stabilization": "lift the balloon 10cm above the table surface, pause for 0.5 seconds to confirm grasp stability before initiating any translational movement to avoid slipping"
+      },
+      "use": [
+        {
+          "description": "inflate the balloon to use as a workspace or party decoration",
+          "link_to_grasp": "retain the initial precision pinch grasp on the balloon's neck to align and secure the neck onto the nozzle of the black hand pump for inflation",
+          "physical_constraints": "grip force must stay below 5N to avoid tearing the latex; do not stretch the balloon's neck excessively when attaching it to the pump nozzle"
+        },
+        {
+          "description": "use the inflated balloon as an impromptu hand stress reliever",
+          "link_to_grasp": "after inflating and tying the balloon, release the pinch grasp and adopt a full-hand power grasp around the spherical inflated body to squeeze for stress relief",
+          "physical_constraints": "maximum squeeze force must stay below 20N to prevent popping the latex; ensure the balloon's neck is securely knotted to avoid air leakage during use"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the balloon's latex is intact with no pre-existing tears or holes; the table is stationary so the balloon does not shift unexpectedly during the grasp sequence",
+        "uncertainty_handling": "if the initial grasp slips, reposition the gripper to grip a slightly thicker section of the balloon's neck, increase grip force by 10% to secure the hold; use machine vision to re-align the end effector if the balloon shifts on the table before grasping"
+      }
+    },
+    "response_time": 56.580917835235596
+  },
+  {
+    "object": "blue can",
+    "model": "GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "blue can",
+        "attributes": "Tall cylindrical blue aluminum can with a glossy printed label, upright on the left side of the table, partially supporting a small white toy car on top",
+        "position_in_scene": "Left side of the tabletop near the upper-left quadrant of the image"
+      },
+      "grasp": {
+        "type": "Top-and-side cylindrical power grasp",
+        "contact_zone": "Around the upper-middle side surface of the can, avoiding the top rim because it is obstructed by the toy car",
+        "accessibility": "Moderately accessible from the side, but the top is blocked and the can is close to other objects, so the robot should approach laterally with clearance"
+      },
+      "planning": {
+        "approach": "Move the gripper in from the side with a slow, collision-aware trajectory, keeping clear of the toy car and nearby cable",
+        "pre_grasp_orientation": "Align the gripper fingers parallel to the can\u2019s vertical axis with the opening centered on the can\u2019s side",
+        "grasp_contact": "Close the fingers until they contact opposite sides of the cylindrical body with a firm but gentle squeeze",
+        "lift_stabilization": "Lift vertically a short distance while maintaining constant grip force and monitoring for slip or rotation"
+      },
+      "use": [
+        {
+          "description": "Move or relocate the can to clear space on the table",
+          "link_to_grasp": "A stable side grasp allows the robot to lift and transport the can without needing access to the blocked top",
+          "physical_constraints": "Must avoid crushing the thin aluminum body and keep the toy car from shifting or falling"
+        },
+        {
+          "description": "Place the can into a recycling or storage bin",
+          "link_to_grasp": "The cylindrical side grasp provides enough control for carrying and releasing the can into a target container",
+          "physical_constraints": "Requires controlled motion to prevent slippage, toppling, or interference from nearby clutter"
+        }
+      ],
+      "robustness": {
+        "assumptions": "The can is lightweight, rigid enough for a standard parallel-jaw grasp, and not significantly slippery",
+        "uncertainty_handling": "If the side surface is hard to see or occluded, use a small approach offset, re-estimate the can axis, and reduce grip force while checking for stable contact before lifting"
+      }
+    },
+    "response_time": 7.035385847091675
+  },
+  {
+    "object": "blue can",
+    "model": "Qwen 3.5 9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "Blue aerosol can",
+        "attributes": "Blue metallic cylindrical container with white graphics, capped with a white plastic toy car structure",
+        "position_in_scene": "Bottom-left quadrant of the wooden table, lying horizontally parallel to the knife set box"
+      },
+      "grasp": {
+        "type": "Parallel grip",
+        "contact_zone": "Main body of the cylinder, clear of the white plastic car attachment",
+        "accessibility": "Partially obscured, considering there may be contact with the adjacent knife box packaging"
+      },
+      "planning": {
+        "approach": "Approach from the right side of the scene, moving the gripper trajectory underneath the knife set box end",
+        "pre_grasp_orientation": "Gripper fingers aligned vertically parallel to the longitudinal axis of the can",
+        "grasp_contact": "Fingers clamp around the metal body, ensuring no pressure is applied to the toy car or potential valve",
+        "lift_stabilization": "Maintain slight counter-torque torque to avoid the top attachment tipping if the can is light"
+      },
+      "use": [
+        {
+          "description": "Activate the valve nozzle to spray or dispense the aerosolized contents from the can",
+          "link_to_grasp": "Grasp must be established firmly to support the weight during extension of the nozzle",
+          "physical_constraints": "Valve mechanism must remain free of obstruction from the toy car attachment"
+        },
+        {
+          "description": "Transport the can from its current location on the cluttered table to a designated storage area",
+          "link_to_grasp": "Grasp allows for secure lifting and vertical translation",
+          "physical_constraints": "Lifting path must be clear of the knife box and other pressurized objects to avoid collision"
+        }
+      ],
+      "robustness": {
+        "assumptions": "The can is empty or has stable pressure that will not cause rupture upon grasping; the toy car is fused to the can and not a mobile control",
+        "uncertainty_handling": "Adjust grasp force based on tactile feedback to detect release of the lid or deformation of the plastic toy car"
+      }
+    },
+    "response_time": 54.96779727935791
+  },
+  {
+    "object": "blue can",
+    "model": "Gemini 3.1 Flash Image",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "blue can",
+        "attributes": "cylindrical metal container, blue exterior coating, some white markings partially visible near the top and side, currently lying on its side, a toy white car is resting on top of it.",
+        "position_in_scene": "Located in the lower-left section of the wooden table, partially tucked beneath an orange number 8 box and beside the toy car."
+      },
+      "grasp": {
+        "type": "2-finger parallel jaw or multi-fingered enveloping grasp",
+        "contact_zone": "Two opposite points on the exposed cylindrical surface of the can, avoiding the top end cap or the bottom, and away from the toy car.",
+        "accessibility": "Partially occluded by the toy car (on top) and the orange box (partially over it). It's resting on the shelf, limiting approach from the bottom. Side and partially from above are the best vectors."
+      },
+      "planning": {
+        "approach": "Approach with an open gripper from the right side, horizontally, aiming to place the jaw tips on either side of the can's middle diameter.",
+        "pre_grasp_orientation": "Rotate gripper to align jaws perpendicular to the cylinder's central axis.",
+        "grasp_contact": "Close jaws carefully until light pressure is detected. A slip sensor could verify a secure hold before moving.",
+        "lift_stabilization": "Increase force slightly to account for the dynamic instability of the attached toy, and lift vertically to clear the shelf and other items."
+      },
+      "use": [
+        {
+          "description": "Dispensing pressurized content (e.g., spray paint)",
+          "link_to_grasp": "Need to reorient to an upright position; a secondary grasp or regrasp would be necessary to free the top nozzle and bottom before the action.",
+          "physical_constraints": "Must manage external top attachments (like the toy car) before use. Stability must be ensured when upright without a sturdy base."
+        },
+        {
+          "description": "Transporting to a new location (material handling robot)",
+          "link_to_grasp": "The cylindrical side grasp is stable for transport but requires careful motion planning to not collide with obstacles while holding.",
+          "physical_constraints": "Weight and load distribution might be slightly offset by the small toy car attached, so dynamic path planning might adjust for a slightly unusual cog."
+        }
+      ],
+      "robustness": {
+        "assumptions": "Assuming the toy car is securely attached to the can and can be lifted without detaching and causing an error; assuming the material is steel and not highly deformable like aluminum at typical grasp force.",
+        "uncertainty_handling": "In case the toy car is not securely attached, the robot should first remove the car with a separate manipulation step before grasping. If can properties (like slickness) lead to slipping, force feedback will trigger a higher force re-grasp or the robot will use visual feedback to re-center the gripper."
+      }
+    },
+    "response_time": 8.91892409324646
+  },
+  {
+    "object": "blue can",
+    "model": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b-2512",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "blue cylindrical can",
+        "attributes": "rigid, cylindrical shape, smooth surface, appears to be made of metal or plastic, approximate diameter of 6-7 cm, height of 15-18 cm",
+        "position_in_scene": "bottom left corner of the table, partially wrapped in blue and white packaging"
+      },
+      "grasp": {
+        "type": "precision grasp",
+        "contact_zone": "mid-section on opposing sides of the can",
+        "accessibility": "partially obstructed by packaging, but accessible from the side"
+      },
+      "planning": {
+        "approach": "from the left or right side, aligned vertically with the can\u2019s axis",
+        "pre_grasp_orientation": "end-effector fingers parallel to the can\u2019s axis, facing upwards or downwards for alignment",
+        "grasp_contact": "two-fingered gripper applying force at approximately 45-degree angles from opposite sides of the can\u2019s midsection",
+        "lift_stabilization": "lift upward while maintaining slight rotational torque to break contact with the packaging"
+      },
+      "use": [
+        {
+          "description": "recycling or disposal of beverage containers",
+          "link_to_grasp": "secure grasp allows for easy transportation to a recycling bin",
+          "physical_constraints": "can must be held upright to avoid spillage if it contains residual liquid"
+        },
+        {
+          "description": "repackaging or repurposing of the can as a storage container",
+          "link_to_grasp": "stable grip ensures the can can be flipped or held steady during cleaning or filling",
+          "physical_constraints": "must ensure a clean, unobstructed can surface for reuse; grasp must account for any residual packaging debris"
+        }
+      ],
+      "robustness": {
+        "assumptions": "can is empty or contains negligible residual liquid; packaging is not tightly adhered; end-effector has sufficient grip strength and precision",
+        "uncertainty_handling": "visual inspection to confirm can\u2019s emptiness and packaging removal before grasping; force control to adapt to varying surface textures and gripper slippage"
+      }
+    },
+    "response_time": 7.702714681625366
+  },
+  {
+    "object": "blue can",
+    "model": "Seed 2.0 Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "blue aluminum beverage can",
+        "attributes": "cylindrical glossy metallic blue can with printed decorative patterns, open top, standard soda can dimensions, has a small white toy car resting on its rim",
+        "position_in_scene": "left-middle area of the light wooden office desk, left of the orange-and-white tool box, behind the USB drive connected to the air pump's hose"
+      },
+      "grasp": {
+        "type": "parallel jaw grasp",
+        "contact_zone": "mid-section lateral surfaces of the can, avoiding the open top that holds the small toy car",
+        "accessibility": "mostly unobstructed, only the top is partially covered by the toy car; front and left sides are clear for robot arm approach"
+      },
+      "planning": {
+        "approach": "move the end effector from above and slightly left of the can to avoid collision with the adjacent tool box",
+        "pre_grasp_orientation": "align gripper jaws to span the can's diameter, oriented horizontally to match the can's vertical central axis",
+        "grasp_contact": "close jaws gently to apply firm, non-crushing force to the can's midsection to secure the grip",
+        "lift_stabilization": "lift the can straight up 15cm above the desk first, verify grip stability before moving the can to any target location"
+      },
+      "use": [
+        {
+          "description": "store small desk supplies like paper clips, thumbtacks, or rubber bands",
+          "link_to_grasp": "use the same parallel jaw grasp to reposition the can to a desk corner, then tilt it slightly to add or remove small items",
+          "physical_constraints": "cannot hold liquids due to open top; maximum load of 500g to prevent the can from tipping or slipping from the gripper"
+        },
+        {
+          "description": "use as a desktop pen holder for writing instruments like pens and pencils",
+          "link_to_grasp": "retain the same grasp to move the can near a workspace edge for easy access to stored pens",
+          "physical_constraints": "only fit slim writing tools to avoid overcrowding the opening; do not exceed 1kg total weight to prevent the can from falling when moved"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the small toy car on the can's rim is stable and will not dislodge during grasping; the can's center of mass is low enough to avoid tipping when lifted",
+        "uncertainty_handling": "use a force sensor to limit grip force and avoid crushing the thin aluminum; if initial alignment is off, back up, re-scan the can's position, and adjust jaw spacing before re-attempting the grasp"
+      }
+    },
+    "response_time": 59.911211252212524
+  },
+  {
+    "object": "USB drive",
+    "model": "GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "USB drive",
+        "attributes": "Small white rectangular USB flash drive with a visible metal USB-A connector and printed text on the body; it is lying flat on the wooden table near the lower center of the scene, attached to a red braided cable",
+        "position_in_scene": "Lower center of the image, on the tabletop, below the long black cylindrical object and slightly left of the mug"
+      },
+      "grasp": {
+        "type": "precision pinch grasp",
+        "contact_zone": "Grasp the thicker white plastic body near its center, avoiding the metal connector and the attached cable",
+        "accessibility": "Highly accessible; it is isolated on open tabletop space and can be approached from above without major occlusion"
+      },
+      "planning": {
+        "approach": "Move the gripper from above with a straight vertical approach to the USB drive body, keeping clear of the red cable and nearby objects",
+        "pre_grasp_orientation": "Align the gripper parallel to the long axis of the USB drive body and slightly open to straddle the plastic housing",
+        "grasp_contact": "Close the fingers gently on the plastic body to establish a stable pinch, ensuring contact is on rigid surfaces and not on the cable or connector",
+        "lift_stabilization": "Lift slowly with the drive kept level; maintain light squeeze force to prevent slip and avoid pulling on the attached cable"
+      },
+      "use": [
+        {
+          "description": "Transfer or store digital data between a robot workstation and another computer",
+          "link_to_grasp": "The precision pinch grasp provides a stable hold for insertion, removal, and transport of the small connector",
+          "physical_constraints": "Must keep the USB connector clean, aligned, and protected from bending or contamination"
+        },
+        {
+          "description": "Present the USB drive for plugging into a USB port for backup, software loading, or log retrieval",
+          "link_to_grasp": "A controlled pinch on the body allows accurate positioning and orientation during port alignment",
+          "physical_constraints": "Requires careful rotational alignment with the port and low insertion force to avoid damaging the plug or port"
+        }
+      ],
+      "robustness": {
+        "assumptions": "The identified USB drive is the small white device near the lower center of the scene and the robot has a gripper capable of fine pinch control",
+        "uncertainty_handling": "If pose estimation is uncertain, the robot should re-observe from a top-down view, segment the USB body from the cable, and grasp only after confirming the connector orientation"
+      }
+    },
+    "response_time": 7.004246473312378
+  },
+  {
+    "object": "USB drive",
+    "model": "Qwen 3.5 9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "USB drive",
+        "attributes": "white rectangular dongle with visible USB connector, red braided cable, text label reading TP-Link",
+        "position_in_scene": "lying on the wooden table surface near the bottom right end of the black air pump"
+      },
+      "grasp": {
+        "type": "parallel finger grasp",
+        "contact_zone": "the flat white plastic housing near the middle, avoiding the connectors",
+        "accessibility": "high, unobstructed view from above"
+      },
+      "planning": {
+        "approach": "vertical approach from above the table surface",
+        "pre_grasp_orientation": "fingers aligned parallel to the long axis of the drive",
+        "grasp_contact": "pinch the white body firmly but gently to avoid snapping",
+        "lift_stabilization": "lift straight up, counteracting gravity and table friction"
+      },
+      "use": [
+        {
+          "description": "plug into a computer for file transfer or data storage",
+          "link_to_grasp": "grasp allows bringing the USB-A end to a computer port",
+          "physical_constraints": "must align the connector carefully with the port"
+        },
+        {
+          "description": "connect as a wireless adapter to provide internet to a computer",
+          "link_to_grasp": "grasp positions the device correctly for insertion into a motherboard slot or USB port",
+          "physical_constraints": "requires handling the attached cable without tangling"
+        }
+      ],
+      "robustness": {
+        "assumptions": "object is rigid and dry, table surface is smooth",
+        "uncertainty_handling": "use compliant fingers to detect slip and adjust grip force"
+      }
+    },
+    "response_time": 12.529477596282959
+  },
+  {
+    "object": "USB drive",
+    "model": "Gemini 3.1 Flash Image",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "USB drive",
+        "attributes": "white, rectangular, small, metal USB connector on one end, plastic body, attached to a red/black braided cord",
+        "position_in_scene": "Middle-left foreground, sitting on the wooden table, partially under the braided hose attached to the pump"
+      },
+      "grasp": {
+        "type": "Parallel jaw gripper grasp",
+        "contact_zone": "Opposing sides of the white plastic body, avoiding the metal connector and the braided cord",
+        "accessibility": "High, it's easily reachable on a flat surface"
+      },
+      "planning": {
+        "approach": "Vertical approach from top-down",
+        "pre_grasp_orientation": "Align gripper jaws parallel to the long sides of the USB drive body",
+        "grasp_contact": "Apply even pressure to the center of the plastic body",
+        "lift_stabilization": "Lift upwards, keeping the orientation horizontal to prevent the cord from catching"
+      },
+      "use": [
+        {
+          "description": "Insert into a computer's USB port for data transfer",
+          "link_to_grasp": "The proposed grasp on the body allows manipulation while keeping the connector free",
+          "physical_constraints": "Alignment with the port is critical; slight forces must be applied within the port's tolerance. The cord might pull if the device is far."
+        },
+        {
+          "description": "Disconnect and place the USB drive into storage (e.g., a drawer)",
+          "link_to_grasp": "The hand retains control for simple placement as a free object",
+          "physical_constraints": "Gravity-dominated pick and place, negligible forces besides object weight."
+        }
+      ],
+      "robustness": {
+        "assumptions": "Assume the surface is flat and the USB drive isn't stuck. Assume no occlusion during movement.",
+        "uncertainty_handling": "Use vision to fine-tune the grasp pose. Use force/torque sensing in the gripper to confirm a secure hold."
+      }
+    },
+    "response_time": 5.861175775527954
+  },
+  {
+    "object": "USB drive",
+    "model": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b-2512",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "USB drive",
+        "attributes": "Small rectangular device with a connector end and a red and black cable attached, approximately 5x2 cm, cylindrical connector end covered with a white plastic cap",
+        "position_in_scene": "Bottom right quadrant of the table, near the corner, slightly behind a black clamp and attached to a red and black flexible cable"
+      },
+      "grasp": {
+        "type": "precision grasp",
+        "contact_zone": "flat rectangular body and connector end",
+        "accessibility": "partially accessible due to cable; requires maneuvering around the attached cable"
+      },
+      "planning": {
+        "approach": "End-effector approaches from above the USB drive at a downward angle to clear the cable",
+        "pre_grasp_orientation": "End-effector fingers or gripper parallel to the long axis of the USB drive, slightly tilted to align with the rectangular body",
+        "grasp_contact": "Gripper contacts the USB drive on both sides of its flat body, fingers closing around the center to avoid the connector end",
+        "lift_stabilization": "Lift upward with a slight forward tilt to disengage from the cable and stabilize the object"
+      },
+      "use": [
+        {
+          "description": "Data transfer and storage: Transferring files from one computer to another or backing up important data",
+          "link_to_grasp": "Grasping the USB drive securely allows for easy insertion and removal into computer ports without dropping it",
+          "physical_constraints": "USB drive must be held steady to align the connector precisely with the port; avoid tilting or applying excessive force"
+        },
+        {
+          "description": "Portable media player or bootable device: Using the USB drive to boot a computer or as a portable media storage for music/videos",
+          "link_to_grasp": "Secure handling of the USB drive ensures the connector remains clean and properly aligned for reliable insertion",
+          "physical_constraints": "Avoid contact with liquids or dust to prevent damage to the connector; handle gently to maintain internal integrity"
+        }
+      ],
+      "robustness": {
+        "assumptions": "The end-effector has sufficient precision to handle small objects; the cable attached to the USB drive does not interfere with the gripper mechanism; the surface is flat and stable",
+        "uncertainty_handling": "Use force control to adjust grip strength based on material flexibility; employ visual feedback to adjust approach angle if cable obstructs; incorporate tactile sensors to confirm secure grasp"
+      }
+    },
+    "response_time": 9.19917607307434
+  },
+  {
+    "object": "USB drive",
+    "model": "Seed 2.0 Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "USB drive",
+        "attributes": "small rectangular white plastic body, partial printed text on casing, metallic USB-A connector, compact lightweight form",
+        "position_in_scene": "located on the light wooden office desk, below the red-and-black air pump hose, left of the pump's metal inflation valve, in the lower central-left area of the group of objects on the table"
+      },
+      "grasp": {
+        "type": "precision pinch grasp for parallel gripper",
+        "contact_zone": "the smooth plastic side surfaces of the USB drive's main body, avoiding the exposed metallic connector end to prevent damage",
+        "accessibility": "fully unobstructed, no objects blocking the robot's path to reach and grasp the USB drive"
+      },
+      "planning": {
+        "approach": "approach the USB drive from a top-down direction, aligned with the drive's long axis to position gripper fingers correctly",
+        "pre_grasp_orientation": "gripper oriented parallel to the length of the USB drive, with finger opening set to match the width of the USB's plastic body",
+        "grasp_contact": "close gripper fingers to apply uniform, gentle pressure on the left and right side surfaces of the USB's body to secure it without slipping",
+        "lift_stabilization": "lift the USB straight upward 10cm above the desk surface, maintaining a level orientation to avoid collisions with the nearby pump hose and other small objects"
+      },
+      "use": [
+        {
+          "description": "Insert the USB drive into a computer or laptop USB port to store, transfer, or backup digital files",
+          "link_to_grasp": "retain the precision pinch grasp to carefully align the USB's metallic connector with the host port, releasing the grasp only once the drive is fully and correctly seated",
+          "physical_constraints": "must match the USB's connector orientation to the port's orientation, avoid applying excessive insertion force that could damage the USB or host port"
+        },
+        {
+          "description": "Transport the USB drive between separate office workstations to move data between devices without network access",
+          "link_to_grasp": "maintain the stable pinch grasp throughout transit to prevent dropping the drive, adjusting grip pressure slightly to account for any movement during travel between workstations",
+          "physical_constraints": "must maintain sufficient grip force to prevent the USB from slipping during movement, avoid exposing the drive to liquid or sharp objects that could damage its casing or connector"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the USB drive is stationary on the desk surface, its plastic casing is rigid enough to withstand the grasp's pressure, no hidden objects under the drive interfere with lifting",
+        "uncertainty_handling": "if the initial grasp fails to secure the drive, reposition the gripper 5mm to adjust contact points before re-grasping; if partial obscuration is detected, shift the approach angle to access the unobscured side of the USB to avoid collisions"
+      }
+    },
+    "response_time": 69.94442415237427
+  },
+  {
+    "object": "whiteboard eraser",
+    "model": "GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "whiteboard eraser",
+        "attributes": "A small rectangular eraser with a dark felt wiping surface on top and a lighter wooden base underneath; compact, flat, and handheld; located near the lower-left central area of the table, resting diagonally on top of a green pen and partially above a blue pen, close to the black marker body and other desk items.",
+        "position_in_scene": "Lower-left center of the tabletop, slightly left of the black marker and below the orange file-set box."
+      },
+      "grasp": {
+        "type": "top pinch or side pinch grasp with two fingers and thumb",
+        "contact_zone": "Grasp the wooden side edges and part of the top felt-backed surface, avoiding the wiping face as the main contact area if possible.",
+        "accessibility": "Moderately accessible but partially obstructed by the green pen and blue pen underneath; a robot should approach from above and slightly from the left or right to avoid collisions."
+      },
+      "planning": {
+        "approach": "Move the end-effector above the eraser along a vertical approach path, pausing to confirm clearance from the pens and nearby marker.",
+        "pre_grasp_orientation": "Align the gripper parallel to the long axis of the eraser, with jaws open wider than the eraser width and the wrist level to the tabletop.",
+        "grasp_contact": "Close the fingers gently on opposite side faces of the eraser until the object is secured with light compression, ensuring the grip is centered to prevent tilting.",
+        "lift_stabilization": "Lift slowly a short distance while maintaining a level wrist and constant grip force so the eraser does not slide off the pens or rotate."
+      },
+      "use": [
+        {
+          "description": "Erase dry-erase marker writing from a whiteboard.",
+          "link_to_grasp": "The pinch grasp provides stable control for moving the eraser across a board surface with the felt face oriented downward.",
+          "physical_constraints": "Requires the wiping surface to stay in contact with the board while maintaining moderate downward force and smooth planar motion."
+        },
+        {
+          "description": "Carry and reposition the eraser to a storage tray or desk location.",
+          "link_to_grasp": "The side grasp enables safe transport without pressing on the erasing surface.",
+          "physical_constraints": "The robot must keep the eraser level to avoid dropping it and avoid squeezing enough to deform the felt or wooden base."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The eraser is rigid enough to support a light pinch grasp and its size is compatible with the robot gripper opening.",
+        "uncertainty_handling": "Because the eraser is partially occluded by other objects, the robot should use visual verification before grasping, adjust the approach to avoid the pens beneath it, and reduce grip force if slippage or misalignment is detected."
+      }
+    },
+    "response_time": 7.182882785797119
+  },
+  {
+    "object": "whiteboard eraser",
+    "model": "Qwen 3.5 9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "whiteboard eraser",
+        "attributes": "rectangular, dual-sided block with grey felt surface and tan sponge surface, rigid structure, green ballpoint pen resting on top",
+        "position_in_scene": "center of the table, resting on the wood surface, oriented diagonally from bottom-left to top-right"
+      },
+      "grasp": {
+        "type": "parallel gripper grip",
+        "contact_zone": "center and sides of the rectangular block, avoiding the writing surfaces and the pen",
+        "accessibility": "high accessibility, object is stationary and not occluded"
+      },
+      "planning": {
+        "approach": "top-down approach",
+        "pre_grasp_orientation": "gripper aligned with the long axis of the eraser",
+        "grasp_contact": "closed gripper jaws compressing the non-textured sides",
+        "lift_stabilization": "lift vertically upward, keeping the pen balanced or supporting it with the gripper"
+      },
+      "use": [
+        {
+          "description": "Wipe dry-erase marker off glass or plastic whiteboards",
+          "link_to_grasp": "firm parallel grip prevents slipping while applying pressure",
+          "physical_constraints": "erasing surface must face the board, grip force should be moderate to avoid tearing felt"
+        },
+        {
+          "description": "Clean dust and smudges from acrylic or glass surfaces",
+          "link_to_grasp": "grip secures tool while hand-free operation is not required",
+          "physical_constraints": "do not use rubbery sponge side for polishing if delicate cleaning required"
+        }
+      ],
+      "robustness": {
+        "assumptions": "erazer structure is rigid enough to support the weight of the pen",
+        "uncertainty_handling": "if lighting obscures the pen, assume slight protrusion and adjust clearance height"
+      }
+    },
+    "response_time": 25.060406923294067
+  },
+  {
+    "object": "whiteboard eraser",
+    "model": "Gemini 3.1 Flash Image",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "whiteboard eraser",
+        "attributes": "felt base, wooden block body",
+        "position_in_scene": "on wooden table, mostly covered by a white file set box"
+      },
+      "grasp": {
+        "type": "2-finger parallel jaw pinch grasp",
+        "contact_zone": "the two exposed parallel long sides of the wooden body",
+        "accessibility": "partially occluded and obstructed by the file set box, requiring precision non-top approach and lift, with collision monitoring"
+      },
+      "planning": {
+        "approach": "from the exposed side, with end-effector horizontal and jaws open in line with the two edges",
+        "pre_grasp_orientation": "end-effector aligned in yaw to minimize distance to both sides, parallel to table",
+        "grasp_contact": "low speed, low force to avoid shift, monitoring contact on soft felt",
+        "lift_stabilization": "straight up initially, to avoid hitting the file box, then clear of obstacles"
+      },
+      "use": [
+        {
+          "description": "Erasing marks from a whiteboard",
+          "link_to_grasp": "requires rotating the end-effector 90 degrees in pitch to make the felt touch a vertical surface",
+          "physical_constraints": "requires maintaining a controlled force normal to the surface, and navigating in two dimensions across the whiteboard without excessive friction."
+        },
+        {
+          "description": "Stowing the eraser in a precise location",
+          "link_to_grasp": "requires a reverse of the lift planning and potentially repositioning the file set box",
+          "physical_constraints": "high precision placement needed, avoiding collisions with other objects."
+        }
+      ],
+      "robustness": {
+        "assumptions": "friction models are accurate, the obstruction is static, and the whiteboard is clean",
+        "uncertainty_handling": "use visual, force and torque feedback to detect collisions and slipped objects, or to re-plan the path"
+      }
+    },
+    "response_time": 5.513414144515991
+  },
+  {
+    "object": "whiteboard eraser",
+    "model": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b-2512",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "whiteboard eraser",
+        "attributes": "small, rectangular, sponge material, black with green accents, approx. 5x2x1 cm",
+        "position_in_scene": "center-left of the image, placed on a desk next to a box of markers and a black pen holder"
+      },
+      "grasp": {
+        "type": "precision grasp",
+        "contact_zone": "flat face with green accents, edges",
+        "accessibility": "moderate, partially obstructed by nearby objects but visible and reachable"
+      },
+      "planning": {
+        "approach": "vertical downward approach from above",
+        "pre_grasp_orientation": "end-effector fingers aligned parallel to the eraser\u2019s long axis",
+        "grasp_contact": "gentle pinch between two fingers and slight pressure on the top flat face",
+        "lift_stabilization": "lift using a combination of vertical force and slight rotational twist to prevent slipping"
+      },
+      "use": [
+        {
+          "description": "cleaning and erasing writing from whiteboards or glass surfaces",
+          "link_to_grasp": "flat contact zone ensures even pressure distribution for effective erasing",
+          "physical_constraints": "must be applied perpendicular to the surface to avoid smudging"
+        },
+        {
+          "description": "removing marks or residues from electronic screens or plastic surfaces",
+          "link_to_grasp": "sponge material allows gentle abrasion without causing scratches",
+          "physical_constraints": "sufficient pressure should be applied to lift residues without excessive force"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the eraser is stationary and not contaminated with sticky substances; end-effector fingers are clean and free of debris",
+        "uncertainty_handling": "visual feedback and force sensors should be used to adjust grasp force dynamically, especially if the eraser surface is uneven or slippery"
+      }
+    },
+    "response_time": 6.620398044586182
+  },
+  {
+    "object": "whiteboard eraser",
+    "model": "Seed 2.0 Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "whiteboard eraser",
+        "attributes": "rectangular small form factor, grey abrasive felt top surface, light brown rigid wooden base, felt side designed for dry-erase mark removal",
+        "position_in_scene": "on the light wooden office table, between the orange-and-white NUMBER 8 toolbox and the black hand air pump, adjacent to a blue ballpoint pen, in the center-left area of the scene"
+      },
+      "grasp": {
+        "type": "parallel-jaw pinch grasp",
+        "contact_zone": "the smooth, rigid wooden lateral side faces of the eraser, avoiding the soft felt top to prevent damage to the eraser's working surface",
+        "accessibility": "fully unobstructed, no surrounding objects block access to the eraser's side edges, easily reachable by a robotic end-effector"
+      },
+      "planning": {
+        "approach": "move the robot's gripper horizontally to align with the eraser's long axis, then lower the end-effector to position the jaws around the eraser's side edges",
+        "pre_grasp_orientation": "orient gripper jaws parallel to the eraser's 12cm long axis, set jaw opening to match the eraser's 6cm width to ensure proper contact",
+        "grasp_contact": "close gripper jaws to apply uniform moderate pressure on the wooden sides of the eraser, confirming secure contact before lifting",
+        "lift_stabilization": "lift the eraser 10cm straight upward from the table surface, maintain steady gripper pressure to prevent slipping or rotation of the eraser"
+      },
+      "use": [
+        {
+          "description": "wipe dry-erase ink markings off a standard office whiteboard surface",
+          "link_to_grasp": "retain the same parallel-jaw pinch grasp, which provides stable control to move the eraser across the vertical whiteboard surface",
+          "physical_constraints": "apply only light downward pressure while wiping to avoid damaging the felt layer; do not use the eraser on wet surfaces that would reduce its mark-removal effectiveness"
+        },
+        {
+          "description": "wipe light dust and dry smudges off smooth glass or polished wood tabletop surfaces",
+          "link_to_grasp": "keep the original pinch grasp to maintain controlled wiping motion across flat horizontal surfaces",
+          "physical_constraints": "avoid using on rough or scratched surfaces that could tear the felt layer; do not use on sticky residues that would clog the felt and render the eraser unusable for future whiteboard cleaning"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the eraser's wooden base is rigid enough to withstand gripper pressure; the eraser's total weight is under 200g, well within the gripper's load capacity",
+        "uncertainty_handling": "if the eraser slips during the initial grasp, use camera visual feedback to reposition the gripper to the thicker lower edge of the wooden base for a more secure hold; adjust gripper pressure slightly if the first grasp attempt is not stable"
+      }
+    },
+    "response_time": 65.64542388916016
+  },
+  {
+    "object": "stirrer",
+    "model": "GPT-5.4 Mini",
+    "model_id": "openai/gpt-5.4-mini",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "stirrer",
+        "attributes": "A small, light wooden coffee stirrer stick that is flat, thin, straight, and cylindrical/rectangular in profile, with a pale beige color and smooth surface.",
+        "position_in_scene": "On the right-middle side of the table, lying horizontally near the black mug and below the black handle-like object."
+      },
+      "grasp": {
+        "type": "precision pinch grasp",
+        "contact_zone": "Either end of the stick, preferably the exposed end farthest from surrounding clutter to maximize clearance and control.",
+        "accessibility": "Highly accessible; it is fully exposed on the tabletop and unobstructed enough for a two-finger pinch."
+      },
+      "planning": {
+        "approach": "Move the gripper above the stirrer, align along its long axis, and descend slowly with visual servoing to avoid contacting nearby objects.",
+        "pre_grasp_orientation": "Gripper jaws parallel to the stirrer length, with the fingertips centered over one end for a stable pinch.",
+        "grasp_contact": "Close the fingertips gently until they make contact on opposite sides of the stick, applying enough force to prevent slipping without bending or crushing it.",
+        "lift_stabilization": "Lift vertically a short distance, keep the gripper aligned with the stick, and verify the object remains centered and does not rotate or drop."
+      },
+      "use": [
+        {
+          "description": "Stir a drink such as coffee, tea, or hot chocolate.",
+          "link_to_grasp": "The pinch grasp provides precise control for inserting the stick into a cup and making small stirring motions.",
+          "physical_constraints": "The stick is thin and disposable, so the robot must avoid excessive force and keep it away from very hot surfaces for long periods."
+        },
+        {
+          "description": "Use as a small disposable tool for spreading, mixing, or applying a small amount of liquid or paste.",
+          "link_to_grasp": "A stable pinch grasp allows the robot to orient the stick tip accurately for light manual tasks.",
+          "physical_constraints": "Limited strength and rigidity mean it should only be used for low-load tasks and not for prying or heavy mixing."
+        }
+      ],
+      "robustness": {
+        "assumptions": "The stirrer is the visible wooden stick on the tabletop and is not attached to any other object.",
+        "uncertainty_handling": "If the exact pose is uncertain, the robot should first estimate the full stick extent, choose the most unobstructed end, and use slow compliant motion with force limits to prevent slipping or pushing nearby items."
+      }
+    },
+    "response_time": 9.013368368148804
+  },
+  {
+    "object": "stirrer",
+    "model": "Qwen 3.5 9B",
+    "model_id": "qwen/qwen3.5-9b",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "wooden stirrer",
+        "attributes": "flat rectangular wooden stick light brown color",
+        "position_in_scene": "near black mug and left of black tube"
+      },
+      "grasp": {
+        "type": "parallel-jaw pinch",
+        "contact_zone": "middle section of stick avoiding ends",
+        "accessibility": "moderately affected by dark tube pitcher"
+      },
+      "planning": {
+        "approach": "from above slightly angled toward stick end",
+        "pre_grasp_orientation": "finger perpendicular to stick surface",
+        "grasp_contact": "friction pinch on flat surface",
+        "lift_stabilization": "confirm stable contact before full lift"
+      },
+      "use": [
+        {
+          "description": "mix liquid in cup",
+          "link_to_grasp": "grasp middle lets end dip into liquid",
+          "physical_constraints": "smooth bottom slightly slippery"
+        },
+        {
+          "description": "apply glue to craft",
+          "link_to_grasp": "secure grip needed for applying pressure",
+          "physical_constraints": "thin end gives way easily"
+        }
+      ],
+      "robustness": {
+        "assumptions": "recognizable simple shape",
+        "uncertainty_handling": "adjust for misaligned center lines"
+      }
+    },
+    "response_time": 17.171097993850708
+  },
+  {
+    "object": "stirrer",
+    "model": "Gemini 3.1 Flash Image",
+    "model_id": "google/gemini-3.1-flash-image-preview",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "stirrer",
+        "attributes": "small, flat, light-colored wooden stirrer",
+        "position_in_scene": "center of image, between the dark blue mug and the dark air pump, pointing diagonally down and to the left"
+      },
+      "grasp": {
+        "type": "lateral pinch grasp",
+        "contact_zone": "the flat, exposed wooden surfaces along the middle of the stirrer, away from either end",
+        "accessibility": "high accessibility as it's not obscured by other objects, though care must be taken to navigate between the mug and the pump"
+      },
+      "planning": {
+        "approach": "vertical approach with a two-finger robotic gripper, fingers initially open wider than the stirrer's width",
+        "pre_grasp_orientation": "aligning the gripper's fingers with the long axis of the stirrer, in an overhead vertical orientation",
+        "grasp_contact": "lowering the gripper and closing the fingers gently until contact is made on both flat sides of the stirrer",
+        "lift_stabilization": "lifting the stirrer vertically, maintaining light, constant pressure to hold it securely but avoid damaging the thin wood, and performing sensory feedback via force sensors"
+      },
+      "use": [
+        {
+          "description": "the robotic arm uses the stirrer to stir a liquid in a container",
+          "link_to_grasp": "this use requires a secure grasp near one end for manipulation without the gripper entering the liquid",
+          "physical_constraints": "the stirrer itself must be structurally capable of withstanding the force of the liquid during stirring"
+        },
+        {
+          "description": "the robotic arm positions and places the stirrer onto a defined location for waste or reuse",
+          "link_to_grasp": "this requires a stable grasp for transport followed by a release command",
+          "physical_constraints": "the process is constrained by the required accuracy of placement and avoiding collisions with other objects"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the robot assumes the stirrer is lightweight and made of a durable enough material (wood) to withstand a gentle pinch grasp without crushing",
+        "uncertainty_handling": "the system uses visual feedback to locate and identify the stirrer and force sensors to detect initial contact and maintain the appropriate grasp force without excessive load or slippage"
+      }
+    },
+    "response_time": 7.701090097427368
+  },
+  {
+    "object": "stirrer",
+    "model": "Ministral 8B",
+    "model_id": "mistralai/ministral-8b-2512",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "stirrer",
+        "attributes": "black, cylindrical handle with a small, round, flat paddle at one end; appears to be made of plastic or rubber; approximately 15-20 cm in length",
+        "position_in_scene": "resting diagonally on the table near the center, partially under a black cylindrical object"
+      },
+      "grasp": {
+        "type": "precision grasp",
+        "contact_zone": "handle and paddle base",
+        "accessibility": "moderate, partially obstructed by other objects"
+      },
+      "planning": {
+        "approach": "bottom to top, perpendicular to the table surface",
+        "pre_grasp_orientation": "end-effector aligned vertically above the handle, slightly angled to clear nearby items",
+        "grasp_contact": "fingers enveloping the handle with the palm contacting the paddle base for stability",
+        "lift_stabilization": "gentle upward force applied along the axis of the handle, with slight rotational stabilization around the handle to prevent slipping"
+      },
+      "use": [
+        {
+          "description": "mixing liquids in a beaker or flask to ensure a homogeneous solution",
+          "link_to_grasp": "firm grip on the handle allows controlled rotation and even distribution of contents",
+          "physical_constraints": "must be submerged in liquid without touching the container bottom; handle should not obstruct mixing motion"
+        },
+        {
+          "description": "stirring ingredients in a bowl for cooking or baking to combine them evenly",
+          "link_to_grasp": "secure grasp ensures smooth circular motion; handle length allows ergonomic stirring without wrist strain",
+          "physical_constraints": "handle should not touch bowl edges or other utensils; paddle should not scrape the bowl surface"
+        }
+      ],
+      "robustness": {
+        "assumptions": "object surface is non-slippery; handle is rigid and not deformed; other objects are moved or cleared to allow clear access",
+        "uncertainty_handling": "use force control to adjust grip pressure if object surface varies; employ visual feedback to confirm handle alignment before grasping"
+      }
+    },
+    "response_time": 6.392170429229736
+  },
+  {
+    "object": "stirrer",
+    "model": "Seed 2.0 Lite",
+    "model_id": "bytedance-seed/seed-2.0-lite",
+    "images": "data/everythingmessy.jpeg",
+    "response": {
+      "object_identification": {
+        "name": "wooden stirrer (popsicle stick)",
+        "attributes": "thin, flat, light natural wood, smooth surface, elongated rectangular shape, lightweight, low-strength soft wood material",
+        "position_in_scene": "located on the right side of the light wooden table, between the small deflated green balloon and the black ceramic mug, to the right of the black hand air pump, fully exposed on the table surface"
+      },
+      "grasp": {
+        "type": "precision pinch grasp",
+        "contact_zone": "the rightmost unused end of the stirrer, the flat tip with no adjacent objects blocking access",
+        "accessibility": "fully unobstructed, no overlapping objects blocking access to the stirrer's graspable end"
+      },
+      "planning": {
+        "approach": "move the robotic gripper horizontally from above the table, descending slowly toward the graspable end of the stirrer",
+        "pre_grasp_orientation": "align the gripper's parallel jaws to run parallel to the stirrer's length, positioned 2cm directly above the target contact zone to avoid knocking the stirrer",
+        "grasp_contact": "close the gripper jaws to apply light, even pressure on the top and bottom flat surfaces of the stirrer's end, securing the grip without splintering the soft wood",
+        "lift_stabilization": "lift the stirrer 10cm straight up above the table to confirm grip stability, pausing to adjust pressure if any slippage is detected before repositioning"
+      },
+      "use": [
+        {
+          "description": "Stir hot beverages in the adjacent black ceramic mug, mixing in additives like sugar, cream, or drink powder to evenly distribute them through the liquid",
+          "link_to_grasp": "maintain the same precision pinch grasp, rotating the end-effector to lower the free left end of the stirrer into the mug's opening to perform controlled circular stirring motions",
+          "physical_constraints": "avoid applying excessive force that would snap the thin wooden stirrer, keep the gripper's contact zone far from the liquid-exposed end to prevent slippage from wet wood"
+        },
+        {
+          "description": "Mix or spread small amounts of craft materials, such as acrylic paint, wood glue, or resin, on a flat workspace surface",
+          "link_to_grasp": "retain the precision pinch grip, angling the stirrer's flat wide surface against the workspace to scrape, spread, or mix craft materials as needed",
+          "physical_constraints": "do not use the stirrer for heavy scraping that would break the wood, clean any material buildup from the stirrer or gripper to maintain a secure grip during use"
+        }
+      ],
+      "robustness": {
+        "assumptions": "the stirrer is structurally intact with no pre-existing cracks, the table remains stationary during the grasp sequence, the stirrer's dimensions match standard popsicle stick specifications",
+        "uncertainty_handling": "if visual detection misaligns the gripper on first approach, back up 5cm, re-calibrate position using tabletop reference markers, and re-approach; if the stirrer shifts during grasp, release the grip, re-locate the stirrer via edge detection, and attempt the grasp again"
+      }
+    },
+    "response_time": 69.63913631439209
+  }
+]

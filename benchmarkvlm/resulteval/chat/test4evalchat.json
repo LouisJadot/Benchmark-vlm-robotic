@@ -1,0 +1,8293 @@
+[
+  {
+    "scene": "office_disorder",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.9333333333,
+        "GD": 0.9333333333,
+        "PPC": 0.9333333333,
+        "AE": 0.9333333333,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.7714285714
+    },
+    "eval_time": 37.41876721382141,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 0.333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.667
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 0.667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.6,
+        "PPC": 0.8,
+        "AE": 0.733,
+        "ST": 0.667
+      },
+      "final_score": 0.657
+    },
+    "eval_time": 43.28733277320862,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.9333333333,
+        "GD": 0.9333333333,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.6
+      },
+      "final_score": 0.8761904762
+    },
+    "eval_time": 43.1201605796814,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.5333333333
+      },
+      "final_score": 0.8
+    },
+    "eval_time": 38.31004858016968,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 0.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.933,
+        "GD": 0.733,
+        "PPC": 1.0,
+        "AE": 0.933,
+        "ST": 0.8
+      },
+      "final_score": 0.914
+    },
+    "eval_time": 35.74995279312134,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.5333333333
+      },
+      "final_score": 0.780952381
+    },
+    "eval_time": 44.37152361869812,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 0.8,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.6
+      },
+      "final_score": 0.8
+    },
+    "eval_time": 31.459538459777832,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.9333,
+        "GD": 0.9333,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.6
+      },
+      "final_score": 0.8286
+    },
+    "eval_time": 36.66771078109741,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 0.9333333333,
+        "PPC": 0.9333333333,
+        "AE": 1.0,
+        "ST": 0.8666666667
+      },
+      "final_score": 0.8476190476
+    },
+    "eval_time": 41.89747190475464,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.3333333333,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.7333333333,
+        "GD": 0.9333333333,
+        "PPC": 0.8,
+        "AE": 0.9333333333,
+        "ST": 0.6
+      },
+      "final_score": 0.619047619
+    },
+    "eval_time": 45.35304117202759,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 0.3333,
+          "PPC": 0.3333,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 0.3333
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.7333,
+        "GD": 0.8,
+        "PPC": 0.8667,
+        "AE": 0.8667,
+        "ST": 0.6667
+      },
+      "final_score": 0.7048
+    },
+    "eval_time": 44.89307117462158,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 0.0,
+          "PPC": 0.3333333333,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 0.7333333333,
+        "PPC": 0.8666666667,
+        "AE": 0.8666666667,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.619047619
+    },
+    "eval_time": 44.974170446395874,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.7333333334,
+        "GD": 0.9333333333,
+        "PPC": 1.0,
+        "AE": 0.9333333333,
+        "ST": 0.3333333333
+      },
+      "final_score": 0.6095238095
+    },
+    "eval_time": 47.060585498809814,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.833
+        },
+        {
+          "step": 2,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.833
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 0.333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.867,
+        "GD": 0.867,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.467
+      },
+      "final_score": 0.79
+    },
+    "eval_time": 45.86811065673828,
+    "error": null
+  },
+  {
+    "scene": "office_disorder",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.7333333334,
+        "GD": 0.9333333334,
+        "PPC": 1.0,
+        "AE": 0.9333333334,
+        "ST": 0.5333333334
+      },
+      "final_score": 0.8285714286
+    },
+    "eval_time": 54.603071212768555,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.9,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.9333
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.9333,
+          "ST": 0.8333
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.9333,
+          "ST": 0.8667
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8667,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 0.9533,
+        "ST": 0.9267
+      },
+      "final_score": 0.9638
+    },
+    "eval_time": 35.69397282600403,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 0.6666667,
+          "PPC": 0.6666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666667
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.6666667,
+      "averages": {
+        "OV": 0.6666667,
+        "GD": 0.6666667,
+        "PPC": 0.7333333,
+        "AE": 0.8,
+        "ST": 0.7333333
+      },
+      "final_score": 0.752381
+    },
+    "eval_time": 35.96405839920044,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.7333333333,
+        "GD": 0.7333333333,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.8
+      },
+      "final_score": 0.8380952381
+    },
+    "eval_time": 37.71986198425293,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 11.25709342956543,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 7.989613056182861,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.724
+    },
+    "eval_time": 29.91184949874878,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 6,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.7777777778,
+        "GD": 0.8333333333,
+        "PPC": 0.7777777778,
+        "AE": 0.8333333333,
+        "ST": 0.8333333333
+      },
+      "final_score": 0.8174603175
+    },
+    "eval_time": 38.48869466781616,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 0.3333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 6,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.6667,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.7778,
+        "GD": 0.8333,
+        "PPC": 0.8333,
+        "AE": 0.6111,
+        "ST": 0.5556
+      },
+      "final_score": 0.754
+    },
+    "eval_time": 40.33576035499573,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 6,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        }
+      ],
+      "scene_understanding_score": 0.6667,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.6112,
+        "GD": 0.6667,
+        "PPC": 0.6667,
+        "AE": 0.6667,
+        "ST": 0.4447
+      },
+      "final_score": 0.627
+    },
+    "eval_time": 34.480302572250366,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.4666666667,
+        "PPC": 0.6,
+        "AE": 0.2666666667,
+        "ST": 0.0666666667
+      },
+      "final_score": 0.3333333333
+    },
+    "eval_time": 33.440568923950195,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 0.6667,
+          "AE": 0.6667,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 0.6667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333,
+      "averages": {
+        "OV": 0.6667,
+        "GD": 0.6667,
+        "PPC": 0.6667,
+        "AE": 0.7333,
+        "ST": 0.4667
+      },
+      "final_score": 0.5048
+    },
+    "eval_time": 35.01965618133545,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 0.333,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.333
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.333,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.467,
+        "PPC": 0.6,
+        "AE": 0.4,
+        "ST": 0.133
+      },
+      "final_score": 0.362
+    },
+    "eval_time": 27.733741760253906,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.3333333333,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8,
+        "PPC": 1.0,
+        "AE": 0.8666666667,
+        "ST": 1.0
+      },
+      "final_score": 0.780952381
+    },
+    "eval_time": 39.88552403450012,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 6,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.6111111111,
+        "GD": 0.6666666667,
+        "PPC": 0.6666666667,
+        "AE": 0.6666666667,
+        "ST": 0.6111111111
+      },
+      "final_score": 0.6986084656
+    },
+    "eval_time": 37.47263741493225,
+    "error": null
+  },
+  {
+    "scene": "table_after_meal_01",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.3333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.6667,
+        "GD": 0.7333,
+        "PPC": 0.8,
+        "AE": 0.7333,
+        "ST": 0.4667
+      },
+      "final_score": 0.7238
+    },
+    "eval_time": 34.86087346076965,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.7333
+      },
+      "final_score": 0.7429
+    },
+    "eval_time": 35.711328744888306,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 1.0,
+        "PPC": 0.8666666667,
+        "AE": 1.0,
+        "ST": 0.9333333333
+      },
+      "final_score": 0.8095238095
+    },
+    "eval_time": 36.37868070602417,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.8667,
+        "GD": 1.0,
+        "PPC": 0.8667,
+        "AE": 0.9333,
+        "ST": 0.8
+      },
+      "final_score": 0.781
+    },
+    "eval_time": 34.393985748291016,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 11.501949310302734,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 0.8666666667,
+        "AE": 0.9333333333,
+        "ST": 0.5333333333
+      },
+      "final_score": 0.7333333333
+    },
+    "eval_time": 37.16889786720276,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 11.75184178352356,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.9333,
+        "GD": 0.9333,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.8
+      },
+      "final_score": 0.9048
+    },
+    "eval_time": 31.12642812728882,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 1.0,
+        "GD": 1.0,
+        "PPC": 0.9333333333,
+        "AE": 1.0,
+        "ST": 0.8666666667
+      },
+      "final_score": 0.8285714286
+    },
+    "eval_time": 43.486332178115845,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.667,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 1.0,
+        "GD": 1.0,
+        "PPC": 0.933,
+        "AE": 1.0,
+        "ST": 0.8
+      },
+      "final_score": 0.867
+    },
+    "eval_time": 44.590965270996094,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 3,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.6667
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.6667,
+        "GD": 0.6667,
+        "PPC": 0.7333,
+        "AE": 0.7333,
+        "ST": 0.5333
+      },
+      "final_score": 0.5714
+    },
+    "eval_time": 40.317349672317505,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.7333333334,
+        "GD": 0.7333333334,
+        "PPC": 0.8,
+        "AE": 0.6666666667,
+        "ST": 0.2666666667
+      },
+      "final_score": 0.5523809524
+    },
+    "eval_time": 39.680567264556885,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 0.7333333333,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.4666666667
+      },
+      "final_score": 0.5904761905
+    },
+    "eval_time": 35.21464562416077,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 60.78528380393982,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.8667,
+        "GD": 0.9333,
+        "PPC": 1.0,
+        "AE": 0.9333,
+        "ST": 0.2667
+      },
+      "final_score": 0.6667
+    },
+    "eval_time": 42.5709445476532,
+    "error": null
+  },
+  {
+    "scene": "living_room",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.667,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.667,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.667
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 0.667,
+          "AE": 1.0,
+          "ST": 0.667
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 0.333,
+      "averages": {
+        "OV": 0.867,
+        "GD": 0.933,
+        "PPC": 0.867,
+        "AE": 0.933,
+        "ST": 0.6
+      },
+      "final_score": 0.695
+    },
+    "eval_time": 47.53075933456421,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.333,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.333,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.333,
+      "averages": {
+        "OV": 0.867,
+        "GD": 0.933,
+        "PPC": 1.0,
+        "AE": 0.733,
+        "ST": 0.6
+      },
+      "final_score": 0.638
+    },
+    "eval_time": 53.47674059867859,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 0.7333333333,
+        "ST": 0.5333333333
+      },
+      "final_score": 0.7523809524
+    },
+    "eval_time": 50.877241134643555,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.6,
+        "PPC": 0.6,
+        "AE": 0.6,
+        "ST": 0.6
+      },
+      "final_score": 0.5714285714
+    },
+    "eval_time": 32.48470163345337,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 0.8,
+        "ST": 0.6
+      },
+      "final_score": 0.7095238095
+    },
+    "eval_time": 42.80428171157837,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 16.98178744316101,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.6667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 0.6667,
+          "ST": 0.6667
+        }
+      ],
+      "scene_understanding_score": 0.6667,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.9333,
+        "GD": 0.9333,
+        "PPC": 0.9333,
+        "AE": 0.8667,
+        "ST": 0.8
+      },
+      "final_score": 0.8286
+    },
+    "eval_time": 70.17131018638611,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.7333333333,
+        "GD": 0.8,
+        "PPC": 0.7333333333,
+        "AE": 0.7333333333,
+        "ST": 0.6
+      },
+      "final_score": 0.6095238095
+    },
+    "eval_time": 40.49640989303589,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.7333333333,
+        "GD": 0.7333333333,
+        "PPC": 0.8,
+        "AE": 0.6666666667,
+        "ST": 0.4
+      },
+      "final_score": 0.5714285714
+    },
+    "eval_time": 38.0958993434906,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.7333333333,
+        "GD": 0.8,
+        "PPC": 0.7333333333,
+        "AE": 0.6,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.5523809524
+    },
+    "eval_time": 38.86308455467224,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.7333,
+        "GD": 0.9333,
+        "PPC": 1.0,
+        "AE": 0.8,
+        "ST": 0.4
+      },
+      "final_score": 0.6952
+    },
+    "eval_time": 35.18382811546326,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 0.3333
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.3333
+        },
+        {
+          "step": 3,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 0.3333,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.6667,
+        "PPC": 0.8,
+        "AE": 0.5333,
+        "ST": 0.3333
+      },
+      "final_score": 0.5143
+    },
+    "eval_time": 39.319573163986206,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 0.333,
+      "averages": {
+        "OV": 0.933,
+        "GD": 0.933,
+        "PPC": 1.0,
+        "AE": 0.734,
+        "ST": 0.267
+      },
+      "final_score": 0.648
+    },
+    "eval_time": 39.23364877700806,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8000000001,
+        "GD": 0.9333333333,
+        "PPC": 1.0,
+        "AE": 0.9333333333,
+        "ST": 0.7333333333
+      },
+      "final_score": 0.7714285714
+    },
+    "eval_time": 48.875516414642334,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.9333333333,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 0.8666666667,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.8571428571
+    },
+    "eval_time": 54.46882677078247,
+    "error": null
+  },
+  {
+    "scene": "laundry_room",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.3333333333,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.9333333333,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.7714285714
+    },
+    "eval_time": 44.44899272918701,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.89,
+          "GD": 0.83,
+          "PPC": 0.89,
+          "AE": 1.0,
+          "ST": 0.67
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.78
+        },
+        {
+          "step": 5,
+          "OV": 0.89,
+          "GD": 0.67,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.78
+        }
+      ],
+      "scene_understanding_score": 0.22,
+      "plan_consistency_score": 0.67,
+      "averages": {
+        "OV": 0.56,
+        "GD": 0.5,
+        "PPC": 0.58,
+        "AE": 0.6,
+        "ST": 0.45
+      },
+      "final_score": 0.51
+    },
+    "eval_time": 25.677826642990112,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.1111111111,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.6,
+        "PPC": 0.6,
+        "AE": 0.6,
+        "ST": 0.6
+      },
+      "final_score": 0.5873015873
+    },
+    "eval_time": 24.70004153251648,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.3333,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 3,
+          "OV": 0.3333,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.4,
+        "GD": 0.6667,
+        "PPC": 0.8,
+        "AE": 0.6667,
+        "ST": 0.7333
+      },
+      "final_score": 0.5619
+    },
+    "eval_time": 35.30202674865723,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.333,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 0.333,
+      "averages": {
+        "OV": 0.933,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 0.867,
+        "ST": 0.933
+      },
+      "final_score": 0.771
+    },
+    "eval_time": 30.53061079978943,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.3333333333,
+          "GD": 0.6666666667,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.5333333333,
+        "GD": 0.5333333333,
+        "PPC": 0.7333333333,
+        "AE": 0.7333333333,
+        "ST": 0.8
+      },
+      "final_score": 0.6666666664
+    },
+    "eval_time": 37.7617552280426,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 0.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 0.5333333333,
+        "PPC": 0.8,
+        "AE": 0.7333333333,
+        "ST": 0.8
+      },
+      "final_score": 0.6952380952
+    },
+    "eval_time": 36.824509382247925,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.667,
+          "GD": 0.333,
+          "PPC": 0.667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.333,
+          "GD": 0.333,
+          "PPC": 0.667,
+          "AE": 0.333,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.533,
+        "GD": 0.467,
+        "PPC": 0.667,
+        "AE": 0.667,
+        "ST": 0.6
+      },
+      "final_score": 0.609
+    },
+    "eval_time": 35.9950966835022,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.667,
+          "PPC": 0.667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.667,
+          "PPC": 0.667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 0.333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.733,
+        "GD": 0.533,
+        "PPC": 0.667,
+        "AE": 0.8,
+        "ST": 0.8
+      },
+      "final_score": 0.695
+    },
+    "eval_time": 32.85814452171326,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.7333333333,
+        "GD": 0.6,
+        "PPC": 0.7333333333,
+        "AE": 0.8,
+        "ST": 0.8
+      },
+      "final_score": 0.6666666667
+    },
+    "eval_time": 28.88170886039734,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.4,
+        "GD": 0.4667,
+        "PPC": 0.6,
+        "AE": 0.6,
+        "ST": 0.4667
+      },
+      "final_score": 0.4572
+    },
+    "eval_time": 30.763478994369507,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.4666666667,
+        "GD": 0.4666666667,
+        "PPC": 0.5333333333,
+        "AE": 0.6,
+        "ST": 0.4
+      },
+      "final_score": 0.4000000001
+    },
+    "eval_time": 32.850595474243164,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 0.3333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 0.3333
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.6667,
+        "GD": 0.7333,
+        "PPC": 0.6667,
+        "AE": 0.8,
+        "ST": 0.5333
+      },
+      "final_score": 0.581
+    },
+    "eval_time": 33.006792306900024,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.4667,
+        "GD": 0.5333,
+        "PPC": 0.6,
+        "AE": 0.6,
+        "ST": 0.4
+      },
+      "final_score": 0.4667
+    },
+    "eval_time": 36.63905692100525,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.4666666667,
+        "GD": 0.6,
+        "PPC": 0.6,
+        "AE": 0.6,
+        "ST": 0.4666666667
+      },
+      "final_score": 0.4856285714
+    },
+    "eval_time": 28.056545734405518,
+    "error": null
+  },
+  {
+    "scene": "cuisine",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.4667,
+        "GD": 0.5333,
+        "PPC": 0.6,
+        "AE": 0.6,
+        "ST": 0.4
+      },
+      "final_score": 0.5143
+    },
+    "eval_time": 39.72708559036255,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.7333333333,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.780952381
+    },
+    "eval_time": 33.39192509651184,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.8
+      },
+      "final_score": 0.8571428571
+    },
+    "eval_time": 36.43364596366882,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.8
+      },
+      "final_score": 0.8571428571428571
+    },
+    "eval_time": 28.295757055282593,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 7.833102703094482,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 6.886690378189087,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 8.013800144195557,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.7333333333
+      },
+      "final_score": 0.6857142857
+    },
+    "eval_time": 31.884541273117065,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.7333333333
+      },
+      "final_score": 0.6857142857
+    },
+    "eval_time": 27.662460803985596,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.3333333333,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.7333333334,
+        "GD": 1.0,
+        "PPC": 0.9333333333,
+        "AE": 0.9333333333,
+        "ST": 0.7333333334
+      },
+      "final_score": 0.7142857143
+    },
+    "eval_time": 45.20238518714905,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 0.3333333333,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.4,
+        "GD": 0.6,
+        "PPC": 0.6,
+        "AE": 0.4666666667,
+        "ST": 0.3333333333
+      },
+      "final_score": 0.3904761905
+    },
+    "eval_time": 35.644017696380615,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.4666666667,
+        "GD": 0.5333333333,
+        "PPC": 0.6,
+        "AE": 0.5333333333,
+        "ST": 0.4666666667
+      },
+      "final_score": 0.419047619
+    },
+    "eval_time": 27.23548698425293,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.4,
+        "GD": 0.4666666667,
+        "PPC": 0.6,
+        "AE": 0.4666666667,
+        "ST": 0.2666666667
+      },
+      "final_score": 0.4095238095
+    },
+    "eval_time": 32.04271984100342,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.6
+      },
+      "final_score": 0.7142857143
+    },
+    "eval_time": 37.52553749084473,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.667,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.333,
+      "plan_consistency_score": 0.667,
+      "averages": {
+        "OV": 0.667,
+        "GD": 0.733,
+        "PPC": 0.8,
+        "AE": 0.733,
+        "ST": 0.667
+      },
+      "final_score": 0.657
+    },
+    "eval_time": 31.004286766052246,
+    "error": null
+  },
+  {
+    "scene": "bathroom",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.1333333333
+      },
+      "final_score": 0.6000285714
+    },
+    "eval_time": 35.12468886375427,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.6667
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.6667,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.8667,
+        "GD": 1.0,
+        "PPC": 0.9333,
+        "AE": 0.9333,
+        "ST": 0.8
+      },
+      "final_score": 0.8381
+    },
+    "eval_time": 39.252994775772095,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 0.9333333333,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.8476190476
+    },
+    "eval_time": 50.06462860107422,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.8666666667
+      },
+      "final_score": 0.7904761905
+    },
+    "eval_time": 44.615864992141724,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 10.528671503067017,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 0.9333333333,
+        "ST": 0.4666666667
+      },
+      "final_score": 0.7428571429
+    },
+    "eval_time": 40.80959701538086,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.7333333333,
+        "PPC": 0.9333333333,
+        "AE": 0.8,
+        "ST": 0.4666666667
+      },
+      "final_score": 0.7238095238
+    },
+    "eval_time": 40.649434328079224,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.3333333333
+      },
+      "final_score": 0.8857142857
+    },
+    "eval_time": 44.849191188812256,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 0.8666666667,
+        "ST": 0.4666666667
+      },
+      "final_score": 0.8571428571
+    },
+    "eval_time": 42.7074134349823,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.9333333333,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.1333333333
+      },
+      "final_score": 0.7714285714
+    },
+    "eval_time": 34.18501019477844,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.6666666667,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.8666666667
+      },
+      "final_score": 0.7142857143
+    },
+    "eval_time": 41.165581464767456,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 1.0,
+        "PPC": 0.9333333333,
+        "AE": 1.0,
+        "ST": 0.5333333333
+      },
+      "final_score": 0.6857142857
+    },
+    "eval_time": 44.377739906311035,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.667,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.667
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.667,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.333
+        },
+        {
+          "step": 4,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.333
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 0.667,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.333
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.667,
+      "averages": {
+        "OV": 0.534,
+        "GD": 0.6,
+        "PPC": 0.8,
+        "AE": 0.6,
+        "ST": 0.333
+      },
+      "final_score": 0.505
+    },
+    "eval_time": 38.24161171913147,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 0.9333333333,
+        "ST": 0.0
+      },
+      "final_score": 0.8
+    },
+    "eval_time": 51.54781436920166,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 0.667,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.667,
+      "plan_consistency_score": 0.667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 0.933,
+        "AE": 0.933,
+        "ST": 0.067
+      },
+      "final_score": 0.724
+    },
+    "eval_time": 51.143428325653076,
+    "error": null
+  },
+  {
+    "scene": "evier",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.0
+      },
+      "final_score": 0.7333333333
+    },
+    "eval_time": 50.00999975204468,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.3333,
+          "GD": 0.3333,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.3333,
+          "GD": 0.3333,
+          "PPC": 0.6667,
+          "AE": 0.3333,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.7333,
+        "PPC": 0.9333,
+        "AE": 0.6667,
+        "ST": 0.6
+      },
+      "final_score": 0.5048
+    },
+    "eval_time": 69.02071928977966,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.3333,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.6667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333,
+      "averages": {
+        "OV": 0.6667,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.5333,
+        "ST": 0.5333
+      },
+      "final_score": 0.5238
+    },
+    "eval_time": 50.7246675491333,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.5333333333,
+        "PPC": 0.5333333333,
+        "AE": 0.5333333333,
+        "ST": 0.5333333333
+      },
+      "final_score": 0.4856571429
+    },
+    "eval_time": 46.4952507019043,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 10.005648136138916,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 0.6667
+        },
+        {
+          "step": 4,
+          "OV": 0.3333,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 0.6667
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 0.3333,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 0.9333,
+        "AE": 0.6,
+        "ST": 0.8667
+      },
+      "final_score": 0.6952
+    },
+    "eval_time": 41.16016507148743,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 10.831992387771606,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.6,
+        "PPC": 0.6,
+        "AE": 0.4666666667,
+        "ST": 0.6
+      },
+      "final_score": 0.5047619048
+    },
+    "eval_time": 37.003955602645874,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.6,
+        "PPC": 0.6,
+        "AE": 0.5333333333,
+        "ST": 0.6
+      },
+      "final_score": 0.5142857143
+    },
+    "eval_time": 29.355445384979248,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.6667
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 0.3333,
+      "averages": {
+        "OV": 0.7333,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.7333,
+        "ST": 0.7333
+      },
+      "final_score": 0.6381
+    },
+    "eval_time": 49.6081862449646,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333,
+      "averages": {
+        "OV": 0.3333,
+        "GD": 0.2667,
+        "PPC": 0.3333,
+        "AE": 0.4,
+        "ST": 0.3333
+      },
+      "final_score": 0.2857
+    },
+    "eval_time": 42.07512807846069,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 0.6667,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333,
+      "averages": {
+        "OV": 0.2667,
+        "GD": 0.2667,
+        "PPC": 0.3333,
+        "AE": 0.2,
+        "ST": 0.2
+      },
+      "final_score": 0.2286
+    },
+    "eval_time": 37.66133451461792,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.3333
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.3333
+        },
+        {
+          "step": 3,
+          "OV": 0.3333,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 0.3333,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 6,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 7,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 8,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333,
+      "averages": {
+        "OV": 0.375,
+        "GD": 0.4583,
+        "PPC": 0.4583,
+        "AE": 0.3333,
+        "ST": 0.25
+      },
+      "final_score": 0.3155
+    },
+    "eval_time": 56.61894679069519,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 1.0,
+        "PPC": 0.9333333333,
+        "AE": 0.8666666667,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.7142857143
+    },
+    "eval_time": 35.99714422225952,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 0.0,
+          "PPC": 0.3333333333,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 0.3333333333,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 1.0,
+        "GD": 0.8,
+        "PPC": 0.6666666667,
+        "AE": 0.7333333333,
+        "ST": 0.7333333333
+      },
+      "final_score": 0.7523809524
+    },
+    "eval_time": 52.53669357299805,
+    "error": null
+  },
+  {
+    "scene": "rangement",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333333333,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.9333333333,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 0.6666666667,
+        "ST": 0.8666666667
+      },
+      "final_score": 0.7142857143
+    },
+    "eval_time": 40.475892066955566,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "GPT-5.4 Mini",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.3333333333,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8666666667,
+        "PPC": 1.0,
+        "AE": 0.9333333333,
+        "ST": 0.8
+      },
+      "final_score": 0.7238095238
+    },
+    "eval_time": 54.29890727996826,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "GPT-5.4 Mini",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.6666666667,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 1.0,
+        "GD": 0.9333333333,
+        "PPC": 1.0,
+        "AE": 0.9333333333,
+        "ST": 0.7333333333
+      },
+      "final_score": 0.8476190476
+    },
+    "eval_time": 45.559120178222656,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "GPT-5.4 Mini",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.3333,
+          "AE": 0.6667,
+          "ST": 0.6667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6667,
+          "ST": 0.6667
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.3333,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.9333,
+        "GD": 1.0,
+        "PPC": 0.8667,
+        "AE": 0.7333,
+        "ST": 0.7333
+      },
+      "final_score": 0.7048
+    },
+    "eval_time": 53.65465688705444,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Qwen 3.5 9B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.6667,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6667,
+          "GD": 0.6667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333
+        }
+      ],
+      "scene_understanding_score": 0.3333,
+      "plan_consistency_score": 0.6667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 1.0,
+        "ST": 0.7333
+      },
+      "final_score": 0.7333
+    },
+    "eval_time": 37.42035531997681,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Qwen 3.5 9B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 0.3333333333,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.9333333333,
+        "GD": 0.8666666667,
+        "PPC": 0.9333333333,
+        "AE": 1.0,
+        "ST": 0.5333333333
+      },
+      "final_score": 0.7523809524
+    },
+    "eval_time": 35.8788697719574,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Qwen 3.5 9B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.0,
+      "averages": {
+        "OV": 0.0,
+        "GD": 0.0,
+        "PPC": 0.0,
+        "AE": 0.0,
+        "ST": 0.0
+      },
+      "final_score": 0.0
+    },
+    "eval_time": 7.631380796432495,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Gemini Flash Image",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 2,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.8,
+        "GD": 0.8,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.4
+      },
+      "final_score": 0.5619047619
+    },
+    "eval_time": 40.269829750061035,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Gemini Flash Image",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333
+        },
+        {
+          "step": 2,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 0.6667,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        },
+        {
+          "step": 4,
+          "OV": 0.6667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 0.9333,
+        "AE": 1.0,
+        "ST": 0.6667
+      },
+      "final_score": 0.7714
+    },
+    "eval_time": 40.824044942855835,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Gemini Flash Image",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 1.0,
+        "AE": 1.0,
+        "ST": 0.7333333334
+      },
+      "final_score": 0.7904761905
+    },
+    "eval_time": 39.588782787323,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Ministral 8B",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.0,
+          "GD": 0.0,
+          "PPC": 0.0,
+          "AE": 0.0,
+          "ST": 0.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 0.6666666667,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.6,
+        "GD": 0.6,
+        "PPC": 0.7333333333,
+        "AE": 0.7333333333,
+        "ST": 0.6
+      },
+      "final_score": 0.5619047619
+    },
+    "eval_time": 40.63072609901428,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Ministral 8B",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.667,
+          "GD": 0.333,
+          "PPC": 0.667,
+          "AE": 1.0,
+          "ST": 0.667
+        },
+        {
+          "step": 2,
+          "OV": 0.667,
+          "GD": 0.667,
+          "PPC": 0.667,
+          "AE": 0.667,
+          "ST": 0.333
+        },
+        {
+          "step": 3,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        },
+        {
+          "step": 5,
+          "OV": 0.667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.667,
+          "ST": 0.667
+        }
+      ],
+      "scene_understanding_score": 0.0,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.667,
+        "GD": 0.8,
+        "PPC": 0.867,
+        "AE": 0.867,
+        "ST": 0.533
+      },
+      "final_score": 0.676
+    },
+    "eval_time": 51.65089392662048,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Ministral 8B",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 0.3333333333,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 3,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.6666666667,
+        "GD": 0.7333333333,
+        "PPC": 0.8,
+        "AE": 0.8,
+        "ST": 0.8666666667
+      },
+      "final_score": 0.6952380952
+    },
+    "eval_time": 43.049840688705444,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Seed 2.0 Lite",
+    "run_id": 0,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.3333333333,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.0
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 0.6666666667,
+      "averages": {
+        "OV": 0.8,
+        "GD": 1.0,
+        "PPC": 0.9333333333,
+        "AE": 0.8666666667,
+        "ST": 0.4
+      },
+      "final_score": 0.7143142857
+    },
+    "eval_time": 46.90964388847351,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Seed 2.0 Lite",
+    "run_id": 1,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 0.6666666667,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 1.0
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 1.0,
+      "plan_consistency_score": 0.3333333333,
+      "averages": {
+        "OV": 0.8666666667,
+        "GD": 1.0,
+        "PPC": 0.9333333333,
+        "AE": 0.8666666667,
+        "ST": 0.8
+      },
+      "final_score": 0.8285714286
+    },
+    "eval_time": 52.720417499542236,
+    "error": null
+  },
+  {
+    "scene": "lavabo",
+    "model": "Seed 2.0 Lite",
+    "run_id": 2,
+    "evaluation": {
+      "steps": [
+        {
+          "step": 1,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 2,
+          "OV": 0.6666666667,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 0.6666666667,
+          "ST": 0.6666666667
+        },
+        {
+          "step": 3,
+          "OV": 0.3333333333,
+          "GD": 0.3333333333,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.3333333333
+        },
+        {
+          "step": 4,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 0.6666666667,
+          "AE": 1.0,
+          "ST": 1.0
+        },
+        {
+          "step": 5,
+          "OV": 1.0,
+          "GD": 1.0,
+          "PPC": 1.0,
+          "AE": 1.0,
+          "ST": 0.6666666667
+        }
+      ],
+      "scene_understanding_score": 0.3333333333,
+      "plan_consistency_score": 1.0,
+      "averages": {
+        "OV": 0.7333333333,
+        "GD": 0.8666666667,
+        "PPC": 0.9333333333,
+        "AE": 0.9333333333,
+        "ST": 0.6666666667
+      },
+      "final_score": 0.780952381
+    },
+    "eval_time": 64.06177258491516,
+    "error": null
+  }
+]

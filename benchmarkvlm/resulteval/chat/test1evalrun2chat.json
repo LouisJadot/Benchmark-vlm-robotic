@@ -1,0 +1,1362 @@
+[
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "blue pen",
+    "vlm_model": "GPT-5.4 Mini",
+    "response_time": 16.785741567611694
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 1,
+      "link_score": 2,
+      "physics_score": 0.5,
+      "total": 3.5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 4.15,
+    "object": "blue pen",
+    "vlm_model": "Qwen 3.5 9B",
+    "response_time": 15.269550323486328
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 1.5,
+      "total": 4.5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.6,
+    "object": "blue pen",
+    "vlm_model": "Gemini 3.1 Flash Image",
+    "response_time": 26.57504391670227
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 1,
+      "total": 4
+    },
+    "planning": {
+      "actions_score": 2.75,
+      "quality_score": 1.5,
+      "total": 4.25
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 0.5,
+      "total": 4.5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 1,
+      "access_score": 0.5,
+      "total": 3.5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 3.75,
+    "object": "blue pen",
+    "vlm_model": "Ministral 8B",
+    "response_time": 22.43274712562561
+  },
+  {
+    "identification": {
+      "name_score": 3.0,
+      "attribute_score": 2.0,
+      "total": 5.0
+    },
+    "planning": {
+      "actions_score": 3.0,
+      "quality_score": 2.0,
+      "total": 5.0
+    },
+    "use": {
+      "realism_score": 2.0,
+      "link_score": 2.0,
+      "physics_score": 1.0,
+      "total": 5.0
+    },
+    "grasp": {
+      "type_score": 2.0,
+      "zone_score": 2.0,
+      "access_score": 1.0,
+      "total": 5.0
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1.0,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "blue pen",
+    "vlm_model": "Seed 2.0 Lite",
+    "response_time": 19.489593029022217
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "grey mug",
+    "vlm_model": "GPT-5.4 Mini",
+    "response_time": 15.849322080612183
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 0.5,
+      "total": 4.5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 0.5,
+      "total": 4.5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.55,
+    "object": "grey mug",
+    "vlm_model": "Qwen 3.5 9B",
+    "response_time": 19.22435760498047
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 1,
+      "access_score": 1,
+      "total": 4
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.5,
+    "object": "grey mug",
+    "vlm_model": "Gemini 3.1 Flash Image",
+    "response_time": 14.594881296157837
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.5,
+      "total": 4.5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 1,
+      "zone_score": 1,
+      "access_score": 0.5,
+      "total": 2.5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 3.9,
+    "object": "grey mug",
+    "vlm_model": "Ministral 8B",
+    "response_time": 22.183083534240723
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 1,
+      "logic_score": 1,
+      "total_raw": 2,
+      "total_scaled": 5
+    },
+    "final_score": 5,
+    "object": "grey mug",
+    "vlm_model": "Seed 2.0 Lite",
+    "response_time": 14.87623405456543
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 1,
+      "logic_score": 1,
+      "total_raw": 2,
+      "total_scaled": 5
+    },
+    "final_score": 5,
+    "object": "computer mouse",
+    "vlm_model": "GPT-5.4 Mini",
+    "response_time": 14.432535171508789
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 1.5,
+      "total": 4.5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.5,
+      "total": 4.5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 0.5,
+      "total": 4.5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 0.5,
+      "total": 4.5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 4.1,
+    "object": "computer mouse",
+    "vlm_model": "Qwen 3.5 9B",
+    "response_time": 54.61533880233765
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 1,
+      "logic_score": 1,
+      "total_raw": 2,
+      "total_scaled": 5
+    },
+    "final_score": 4.95,
+    "object": "computer mouse",
+    "vlm_model": "Gemini 3.1 Flash Image",
+    "response_time": 18.881587982177734
+  },
+  {
+    "identification": {
+      "name_score": 3.0,
+      "attribute_score": 2.0,
+      "total": 5.0
+    },
+    "planning": {
+      "actions_score": 2.0,
+      "quality_score": 0.75,
+      "total": 2.75
+    },
+    "use": {
+      "realism_score": 2.0,
+      "link_score": 1.0,
+      "physics_score": 0.25,
+      "total": 3.25
+    },
+    "grasp": {
+      "type_score": 2.0,
+      "zone_score": 1.0,
+      "access_score": 0.5,
+      "total": 3.5
+    },
+    "robustness": {
+      "vvl_score": 0.0,
+      "logic_score": 0.0,
+      "total_raw": 0.0,
+      "total_scaled": 0.0
+    },
+    "final_score": 2.9,
+    "object": "computer mouse",
+    "vlm_model": "Ministral 8B",
+    "response_time": 19.55094003677368
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "computer mouse",
+    "vlm_model": "Seed 2.0 Lite",
+    "response_time": 23.193138122558594
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "orange balloon",
+    "vlm_model": "GPT-5.4 Mini",
+    "response_time": 16.474086046218872
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 1,
+      "logic_score": 1,
+      "total_raw": 2,
+      "total_scaled": 5
+    },
+    "final_score": 5,
+    "object": "orange balloon",
+    "vlm_model": "Qwen 3.5 9B",
+    "response_time": 17.424232721328735
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 1,
+      "access_score": 1,
+      "total": 4
+    },
+    "robustness": {
+      "vvl_score": 1,
+      "logic_score": 1,
+      "total_raw": 2,
+      "total_scaled": 5
+    },
+    "final_score": 4.75,
+    "object": "orange balloon",
+    "vlm_model": "Gemini 3.1 Flash Image",
+    "response_time": 22.560429096221924
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.5,
+      "total": 4.5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 1,
+      "access_score": 0.5,
+      "total": 3.5
+    },
+    "robustness": {
+      "vvl_score": 0,
+      "logic_score": 0.5,
+      "total_raw": 0.5,
+      "total_scaled": 1.25
+    },
+    "final_score": 3.85,
+    "object": "orange balloon",
+    "vlm_model": "Ministral 8B",
+    "response_time": 16.20595383644104
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "orange balloon",
+    "vlm_model": "Seed 2.0 Lite",
+    "response_time": 17.9008846282959
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "blue can",
+    "vlm_model": "GPT-5.4 Mini",
+    "response_time": 26.953142881393433
+  },
+  {
+    "identification": {
+      "name_score": 0,
+      "attribute_score": 2,
+      "total": 2
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 0.75,
+      "total": 4.75
+    },
+    "robustness": {
+      "vvl_score": 0,
+      "logic_score": 0.5,
+      "total_raw": 0.5,
+      "total_scaled": 1.25
+    },
+    "final_score": 3.6,
+    "object": "blue can",
+    "vlm_model": "Qwen 3.5 9B",
+    "response_time": 20.693429231643677
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 4.5,
+    "object": "blue can",
+    "vlm_model": "Gemini 3.1 Flash Image",
+    "response_time": 16.465317010879517
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 1,
+      "zone_score": 1,
+      "access_score": 1,
+      "total": 3
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 4.1,
+    "object": "blue can",
+    "vlm_model": "Ministral 8B",
+    "response_time": 23.392476558685303
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.7,
+    "object": "blue can",
+    "vlm_model": "Seed 2.0 Lite",
+    "response_time": 13.208570718765259
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 1,
+      "logic_score": 1,
+      "total_raw": 2,
+      "total_scaled": 5
+    },
+    "final_score": 5,
+    "object": "USB drive",
+    "vlm_model": "GPT-5.4 Mini",
+    "response_time": 16.098373413085938
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 0.75,
+      "total": 4.75
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 0.75,
+      "total": 4.75
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.6,
+    "object": "USB drive",
+    "vlm_model": "Qwen 3.5 9B",
+    "response_time": 15.342892408370972
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "USB drive",
+    "vlm_model": "Gemini 3.1 Flash Image",
+    "response_time": 26.220194816589355
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.5,
+      "total": 4.5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 1,
+      "access_score": 1,
+      "total": 4
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 4.2,
+    "object": "USB drive",
+    "vlm_model": "Ministral 8B",
+    "response_time": 17.181139945983887
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "USB drive",
+    "vlm_model": "Seed 2.0 Lite",
+    "response_time": 16.824178218841553
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 1,
+      "logic_score": 1,
+      "total_raw": 2,
+      "total_scaled": 5
+    },
+    "final_score": 5,
+    "object": "whiteboard eraser",
+    "vlm_model": "GPT-5.4 Mini",
+    "response_time": 14.448288202285767
+  },
+  {
+    "identification": {
+      "name_score": 1.5,
+      "attribute_score": 1.0,
+      "total": 2.5
+    },
+    "planning": {
+      "actions_score": 3.0,
+      "quality_score": 1.5,
+      "total": 4.5
+    },
+    "use": {
+      "realism_score": 2.0,
+      "link_score": 2.0,
+      "physics_score": 0.5,
+      "total": 4.5
+    },
+    "grasp": {
+      "type_score": 2.0,
+      "zone_score": 1.0,
+      "access_score": 1.0,
+      "total": 4.0
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1.0,
+      "total_scaled": 2.5
+    },
+    "final_score": 3.6,
+    "object": "whiteboard eraser",
+    "vlm_model": "Qwen 3.5 9B",
+    "response_time": 26.729475736618042
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "whiteboard eraser",
+    "vlm_model": "Gemini 3.1 Flash Image",
+    "response_time": 14.711964845657349
+  },
+  {
+    "identification": {
+      "name_score": 1.5,
+      "attribute_score": 1.5,
+      "total": 3.0
+    },
+    "planning": {
+      "actions_score": 3.0,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 1.0,
+      "link_score": 2.0,
+      "physics_score": 0.5,
+      "total": 3.5
+    },
+    "grasp": {
+      "type_score": 0.0,
+      "zone_score": 1.0,
+      "access_score": 0.5,
+      "total": 1.5
+    },
+    "robustness": {
+      "vvl_score": 0.0,
+      "logic_score": 0.5,
+      "total_raw": 0.5,
+      "total_scaled": 1.25
+    },
+    "final_score": 2.8,
+    "object": "whiteboard eraser",
+    "vlm_model": "Ministral 8B",
+    "response_time": 24.59068512916565
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 1.5,
+      "total": 4.5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 4.4,
+    "object": "whiteboard eraser",
+    "vlm_model": "Seed 2.0 Lite",
+    "response_time": 28.546863317489624
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "stirrer",
+    "vlm_model": "GPT-5.4 Mini",
+    "response_time": 14.957874774932861
+  },
+  {
+    "identification": {
+      "name_score": 1.5,
+      "attribute_score": 2.0,
+      "total": 3.5
+    },
+    "planning": {
+      "actions_score": 3.0,
+      "quality_score": 1.75,
+      "total": 4.75
+    },
+    "use": {
+      "realism_score": 1.5,
+      "link_score": 2.0,
+      "physics_score": 1.0,
+      "total": 4.5
+    },
+    "grasp": {
+      "type_score": 1.0,
+      "zone_score": 1.0,
+      "access_score": 0.5,
+      "total": 2.5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1.0,
+      "total_scaled": 2.5
+    },
+    "final_score": 3.55,
+    "object": "stirrer",
+    "vlm_model": "Qwen 3.5 9B",
+    "response_time": 16.582032680511475
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 1,
+      "access_score": 1,
+      "total": 4
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 0.5,
+      "total_raw": 1,
+      "total_scaled": 2.5
+    },
+    "final_score": 4.3,
+    "object": "stirrer",
+    "vlm_model": "Gemini 3.1 Flash Image",
+    "response_time": 19.033623695373535
+  },
+  {
+    "identification": {
+      "name_score": 1.5,
+      "attribute_score": 1.0,
+      "total": 2.5
+    },
+    "planning": {
+      "actions_score": 3.0,
+      "quality_score": 2.0,
+      "total": 5.0
+    },
+    "use": {
+      "realism_score": 2.0,
+      "link_score": 2.0,
+      "physics_score": 1.0,
+      "total": 5.0
+    },
+    "grasp": {
+      "type_score": 2.0,
+      "zone_score": 1.0,
+      "access_score": 1.0,
+      "total": 4.0
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1.0,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.25,
+    "object": "stirrer",
+    "vlm_model": "Ministral 8B",
+    "response_time": 16.73828125
+  },
+  {
+    "identification": {
+      "name_score": 3,
+      "attribute_score": 2,
+      "total": 5
+    },
+    "planning": {
+      "actions_score": 3,
+      "quality_score": 2,
+      "total": 5
+    },
+    "use": {
+      "realism_score": 2,
+      "link_score": 2,
+      "physics_score": 1,
+      "total": 5
+    },
+    "grasp": {
+      "type_score": 2,
+      "zone_score": 2,
+      "access_score": 1,
+      "total": 5
+    },
+    "robustness": {
+      "vvl_score": 0.5,
+      "logic_score": 1,
+      "total_raw": 1.5,
+      "total_scaled": 3.75
+    },
+    "final_score": 4.75,
+    "object": "stirrer",
+    "vlm_model": "Seed 2.0 Lite",
+    "response_time": 13.459707975387573
+  }
+]
