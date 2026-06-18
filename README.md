@@ -1,90 +1,221 @@
-# Benchmark — OpenRouter / OpenAI VLM experiments
+# VLM Robotics Benchmark — From Single-Object Grasping to High-Level Task Planning
 
-This repository contains scripts and data for running and evaluating vision-language model (VLM) benchmarks using OpenRouter and OpenAI APIs.
-
-**Quick summary:**
-- **Install:** create a Python 3.12 virtual environment and install `requirements.txt`.
-- **Run example scripts:** `ingopenrouteur.py` (image prompt + Responses API) and `listmodelopenrouteur.py` (list OpenRouter models).
-- **Benchmarks:** organized under `benchmarkvlm/` with `data/`, `gen/`, `eval/`, and result folders.
-
-**Requirements**: See [requirements.txt](requirements.txt) for exact package versions.
-
-**Setup**
-
-1. Create and activate a virtual environment:
-
-```bash
-python3 -m venv venv_benchmark
-source venv_benchmark/bin/activate
-```
-
-2. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Set API keys in environment (example):
-
-```bash
-export OPENAI_API_KEY="sk..."
-export OPENROUTER_API_KEY="or_..."
-```
-
-Note: some scripts use `openai` and others use `openrouter` packages; both keys may be required depending on the script.
-
-**Usage examples**
-
-- Run the image prompt example (demonstrates sending an image + text prompt):
-
-```bash
-python ingopenrouteur.py
-```
-
-- List available OpenRouter models:
-
-```bash
-python listmodelopenrouteur.py
-```
-
-- Run benchmark generation or evaluation scripts (examples):
-
-```bash
-python benchmarkvlm/gen/test1gen.py
-python benchmarkvlm/eval/test1eval.py
-```
-
-Adjust the script names or test numbers to run different benchmark cases.
-
-**Repository structure**
-
-- `ingopenrouteur.py` — example that encodes an image to base64 and calls a Responses-style API.
-- `listmodelopenrouteur.py` — example script that lists models via the OpenRouter client.
-- `requirements.txt` — pinned Python dependencies.
-- `venv_benchmark/` — (optional) committed virtual environment in this workspace (already present here).
-- `benchmarkvlm/`
-  - `data/` — datasets used by benchmarks (`datatest1,2,3`, `datatest4,5`, ...)
-  - `gen/` — generation scripts (e.g. `test1gen.py`)
-  - `eval/` — evaluation scripts (e.g. `test1eval.py`)
-  - `resulteval/` — evaluation outputs organized by backend (e.g. `chat/`, `claude/`)
-  - `resultgen/` — generation output files
-
-**How results are organized**
-
-- Generated outputs: `benchmarkvlm/resultgen/` (CSV/JSON runs)
-- Evaluation outputs: `benchmarkvlm/resulteval/` with subfolders per backend (`chat`, `claude`, ...)
-
-**Notes & recommendations**
-
-- Keep API keys out of the repository — use environment variables or an external secrets manager.
-- Consider adding a lightweight runner script (e.g. `run_benchmark.py`) to parameterize tests and ensure reproducible runs.
-- If you want CI for reproducible benchmarking, add a small `tox` or GitHub Actions workflow that installs the pinned `requirements.txt` and runs a subset of the gen/eval scripts.
-
-**Next steps I can help with**
-
-- Add a `run_benchmark.py` orchestrator.
-- Add a minimal `README` examples section showing how to run a single end-to-end test and reproduce results.
-- Create a `.env.example` showing required environment variables.
+> A progressive, multi-test benchmark evaluating Vision-Language Models (VLMs) for robot manipulation tasks.  
+> **Author:** Louis Jadot — University of Waikato  
+> **Evaluators:** GPT-5.2 · Claude Sonnet 4.6 (dual LLM-as-judge validation)
 
 ---
-Generated from repository inspection on 2026-06-17.
+
+## Overview
+
+This benchmark assesses five state-of-the-art VLMs on their ability to produce structured, physically grounded JSON outputs for robot manipulation. Tasks range from identifying a single object to autonomously decomposing a high-level cleaning goal into an executable manipulation plan.
+
+**Models evaluated:**
+
+| Model | Type | Parameters |
+|---|---|---|
+| GPT-5.4 Mini | Proprietary | — |
+| Gemini 3.1 Flash Image | Proprietary | — |
+| Seed 2.0 Lite | Proprietary | — |
+| Qwen 3.5 9B | Open-weight | 9B |
+| Ministral 8B | Open-weight | 8B |
+
+---
+
+## Benchmark Structure
+
+The benchmark is composed of **5 progressive tests**, each increasing task complexity along two axes: *perceptual difficulty* (Tests 1–3) and *planning depth* (Tests 4–5).
+
+### Test 1 — Single-Object Grasping
+- **Input:** Single image of an isolated object
+- **Output:** JSON with object identification, grasp strategy, manipulation plan, use-case reasoning, robustness
+- **Objects:** 8 everyday items (blue pen, grey mug, computer mouse, orange balloon, blue can, USB drive, whiteboard eraser, stirrer)
+- **Scoring:** Robot-Centric Scoring V5 — 5 criteria (Identification, Planning, Use, Grasp, Robustness), scale 0–5
+- **Evaluators:** GPT-5.2 + Claude Sonnet 4.6
+
+### Test 2 — Multi-Object Scene Grasping
+- **Input:** Scene with multiple objects + textual target hint
+- **Output:** Same JSON + `position_in_scene` field (localization)
+- **Key difference:** Identification criterion now evaluates localization, not name recall
+- **Scoring:** Same protocol, position score replaces name score
+
+### Test 3 — Strict Localization Grasping
+- **Input:** Cluttered scene with partial occlusions + target hint
+- **Output:** Same JSON with rich spatial description (orientation, neighbors, position)
+- **Key difference:** Position scored +1 per valid spatial descriptor (max 3); wrong object → score 0
+- **Scoring:** Same protocol, stricter localization rubric
+
+### Test 4 — Multi-Step Execution Planning
+- **Input:** Real-world domestic scene + ordered list of 5 manipulation tasks
+- **Output:** Full HTN-style execution plan (scene understanding + step-by-step plan with grasp, action type, preconditions, state transitions)
+- **Scenes:** 9 domestic environments (office, kitchen, bathroom, laundry room, sink, storage, etc.)
+- **Runs:** 3 independent runs per (model, scene) pair
+- **Scoring:** 7 criteria (OV, GD, PPC, AE, ST, SU, PC), scale 0–1
+
+### Test 5 — High-Level Task Planning (HTN)
+- **Input:** Real-world scene + single high-level goal (e.g., *"tidy the desk"*)
+- **Output:** HTN decomposition (Phase 1: atomic subtask list) + grounded execution plan (Phase 2)
+- **Task ambiguity:** 5 variants per scene from highly detailed (level 1) to maximally vague (level 5)
+- **Scenes:** 9 domestic environments × 5 ambiguity levels = 45 scene-task combinations
+- **Runs:** 3 independent runs per (model, scene, variant)
+- **Scoring:** 4 criteria (SU, TD, AP, GC), scale 0–1
+- **Forbidden abstract verbs:** `clean`, `tidy`, `organize`, `arrange`, `sort`, `prepare`, `fix`, `manage`, `improve`
+
+---
+
+## Key Results
+
+### Overall Leaderboard (normalized to [0,1] across all tests)
+
+| Model | T1 | T2 | T3 | T4 | T5 | **Mean** |
+|---|---|---|---|---|---|---|
+| GPT-5.4 Mini | 0.974 | 0.960 | 0.947 | 0.745 | 0.788 | **0.883** |
+| Gemini Flash Image | 0.926 | 0.914 | 0.865 | 0.751 | 0.785 | 0.848 |
+| Seed 2.0 Lite | 0.910 | 0.932 | 0.921 | 0.722 | 0.726 | 0.842 |
+| Ministral 8B | 0.800 | 0.768 | 0.666 | 0.558 | 0.578 | 0.674 |
+| Qwen 3.5 9B | 0.862 | 0.704 | 0.787 | 0.425 | 0.464 | 0.648 |
+
+### Key Findings
+
+- **GPT-5.4 Mini** leads the overall benchmark with the most consistent cross-test performance.
+- **Gemini Flash Image** is the best model for planning tasks (Tests 4–5), overtaking GPT-5.4 Mini in sequential and high-level task settings.
+- **Seed 2.0 Lite** is the most stable model — never placing below 3rd across all five tests.
+- **Spatial localization** (Tests 2–3) and **scene understanding** (Tests 4–5) are the two hardest capability axes, consistently separating proprietary from open-weight models.
+- **Qwen 3.5 9B** exhibits catastrophic run variance (σ=0.386–0.391 in Tests 4–5) and complete plan failures, disqualifying it for safety-critical deployments.
+- **Task ambiguity paradox (Test 5):** performance *increases* with vague task descriptions (level 1 μ=0.652 → level 5 μ=0.714), revealing a coverage bias in LLM-judge evaluation.
+- **Inter-evaluator agreement** improves with task structure: Pearson r=0.50 (Test 1) → r=0.94 (Test 2) → r=0.93 (Test 5).
+
+---
+
+## Repository Structure
+
+```
+vlm-robotics-benchmark/
+│
+├── bench2/
+│   └── data/                        # Scene images
+│       ├── bureau.jpeg              # Office disorder
+│       ├── table.jpeg               # Table after meal
+│       ├── salon.jpeg               # Living room
+│       ├── chambre.jpeg             # Laundry room
+│       ├── cuisine.jpeg             # Kitchen
+│       ├── douche.jpeg              # Bathroom
+│       ├── evier.jpeg               # Sink
+│       ├── rangement.jpeg           # Storage cabinet
+│       └── lavabo.jpeg              # Washbasin
+│
+├── tests/
+│   ├── test1_single_object/         # Test 1 generation + evaluation scripts
+│   ├── test2_multi_object/          # Test 2
+│   ├── test3_strict_localization/   # Test 3
+│   ├── test4_execution_planning/    # Test 4
+│   └── test5_htn_planning/         # Test 5
+│       ├── generate_responses.py    # VLM response generation
+│       └── evaluate_responses.py    # LLM-as-judge evaluation
+│
+├── results/
+│   ├── test1/
+│   ├── test2/
+│   ├── test3/
+│   ├── test4/
+│   │   ├── evaluation_results.csv   # GPT-5.2 evaluator
+│   │   └── evaluationresults.csv    # Claude evaluator
+│   └── test5/
+│       ├── sequentiality_results2.json
+│       ├── evaluation_results2.json # GPT-5.2 evaluator
+│       └── evaluationresults2.json  # Claude evaluator
+│
+├── figures/                         # All generated figures (PDF + PNG)
+│
+├── paper/
+│   └── vlm_benchmark_final_v2.pdf   # Full benchmark paper (Tests 1–5)
+│
+└── README.md
+```
+
+---
+
+## Scoring Protocols
+
+### Tests 1–3 — Robot-Centric Scoring V5
+
+Each criterion is scored 0–5. Final score = mean(A, B, C, D, E).
+
+| Criterion | Description |
+|---|---|
+| **A — Identification** | Name/localization match + attribute bonus |
+| **B — Planning** | Approach, pre-grasp, grasp contact, lift (3 pts) + logical order, efficiency (2 pts) |
+| **C — Use** | Realism, grasp-use link, physics plausibility |
+| **D — Grasp** | Type correctness, contact zone precision, accessibility |
+| **E — Robustness** | Hallucination detection + logic (raw ×2.5 rescaled to 0–5) |
+
+### Test 4 — Step-Level Execution Scoring
+
+Scored 0–1 per criterion. Final = mean(OV, GD, PPC, AE, ST, SU, PC).
+
+| Criterion | Description |
+|---|---|
+| **OV** | Object validity (visibility, class, attributes) |
+| **GD** | Grasp definition (type, contact zone, accessibility) |
+| **PPC** | Physical properties (stability, fragility, manipulability) |
+| **AE** | Action execution (task match, physical possibility, target) |
+| **ST** | State transition (precondition, postcondition, consistency) |
+| **SU** | Scene understanding (objects, no hallucination, layout) |
+| **PC** | Plan consistency (no switch, no contradiction, temporal order) |
+
+### Test 5 — HTN Planning Scoring
+
+Scored 0/0.5/1 per sub-criterion. Final = mean(SU, TD, AP, GC).
+
+| Criterion | Description |
+|---|---|
+| **SU** | Scene understanding |
+| **TD** | Task decomposition (atomicity, grounding, coverage) |
+| **AP** | Action plan (11 sub-criteria per step) |
+| **GC** | Global consistency (temporal order, state tracking, task achievement) |
+
+---
+
+## Evaluation Setup
+
+All VLM responses are independently evaluated by two LLM judges:
+- **GPT-5.2** (OpenAI)
+- **Claude Sonnet 4.6** (Anthropic)
+
+All reported scores are means over both evaluators. Inter-evaluator agreement is reported via Pearson *r* and Mean Absolute Error (MAE).
+
+VLMs are accessed via the [OpenRouter](https://openrouter.ai/) API. Set your API key before running:
+
+```bash
+export OPENROUTER_API_KEY=your_key_here
+```
+
+---
+
+## Requirements
+
+```bash
+pip install openrouter pandas numpy matplotlib seaborn scipy
+```
+
+---
+
+## Citation
+
+If you use this benchmark, please cite:
+
+```bibtex
+@misc{jadot2025vlmbenchmark,
+  title   = {Benchmarking Vision-Language Models for Robot Perception and Grasp Planning},
+  author  = {Jadot, Louis},
+  year    = {2025},
+  school  = {University of Waikato},
+  note    = {Available at: https://github.com/[your-username]/vlm-robotics-benchmark}
+}
+```
+
+---
+
+## License
+
+MIT License — see `LICENSE` for details.
