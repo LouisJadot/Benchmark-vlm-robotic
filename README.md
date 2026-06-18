@@ -10,6 +10,13 @@
 
 This benchmark assesses five state-of-the-art VLMs on their ability to produce structured, physically grounded JSON outputs for robot manipulation. Tasks range from identifying a single object to autonomously decomposing a high-level cleaning goal into an executable manipulation plan.
 
+## Paper
+
+This repository accompanies the paper:
+
+> Louis Jadot Millet, ..., *VLM Robotics Benchmark — From Single-Object Grasping to High-Level Task Planning*, 2026.
+
+
 **Models evaluated:**
 
 | Model | Type | Parameters |
@@ -30,7 +37,7 @@ The benchmark is composed of **5 progressive tests**, each increasing task compl
 - **Input:** Single image of an isolated object
 - **Output:** JSON with object identification, grasp strategy, manipulation plan, use-case reasoning, robustness
 - **Objects:** 8 everyday items (blue pen, grey mug, computer mouse, orange balloon, blue can, USB drive, whiteboard eraser, stirrer)
-- **Scoring:** Robot-Centric Scoring V5 — 5 criteria (Identification, Planning, Use, Grasp, Robustness), scale 0–5
+- **Scoring:** Scoring System — 5 criteria (Identification, Planning, Use, Grasp, Robustness), scale 0–5
 - **Evaluators:** GPT-5.2 + Claude Sonnet 4.6
 
 ### Test 2 — Multi-Object Scene Grasping
@@ -89,48 +96,36 @@ The benchmark is composed of **5 progressive tests**, each increasing task compl
 
 ## Repository Structure
 
-```
-vlm-robotics-benchmark/
-│
-├── bench2/
-│   └── data/                        # Scene images
-│       ├── bureau.jpeg              # Office disorder
-│       ├── table.jpeg               # Table after meal
-│       ├── salon.jpeg               # Living room
-│       ├── chambre.jpeg             # Laundry room
-│       ├── cuisine.jpeg             # Kitchen
-│       ├── douche.jpeg              # Bathroom
-│       ├── evier.jpeg               # Sink
-│       ├── rangement.jpeg           # Storage cabinet
-│       └── lavabo.jpeg              # Washbasin
-│
-├── tests/
-│   ├── test1_single_object/         # Test 1 generation + evaluation scripts
-│   ├── test2_multi_object/          # Test 2
-│   ├── test3_strict_localization/   # Test 3
-│   ├── test4_execution_planning/    # Test 4
-│   └── test5_htn_planning/         # Test 5
-│       ├── generate_responses.py    # VLM response generation
-│       └── evaluate_responses.py    # LLM-as-judge evaluation
-│
-├── results/
-│   ├── test1/
-│   ├── test2/
-│   ├── test3/
-│   ├── test4/
-│   │   ├── evaluation_results.csv   # GPT-5.2 evaluator
-│   │   └── evaluationresults.csv    # Claude evaluator
-│   └── test5/
-│       ├── sequentiality_results2.json
-│       ├── evaluation_results2.json # GPT-5.2 evaluator
-│       └── evaluationresults2.json  # Claude evaluator
-│
-├── figures/                         # All generated figures (PDF + PNG)
-│
-├── paper/
-│   └── vlm_benchmark_final_v2.pdf   # Full benchmark paper (Tests 1–5)
-│
-└── README.md
+```text
+benchmark/
+├── benchmarkvlm/
+│   ├── data/
+│   │   ├── datatest1,2,3/
+│   │   └── datatest4,5/
+│   ├── gen/
+│   │   ├── test1gen.py
+│   │   ├── test2gen.py
+│   │   ├── test3gen.py
+│   │   ├── test4gen.py
+│   │   └── test5gen.py
+│   ├── eval/
+│   │   ├── test1eval.py
+│   │   ├── test2eval.py
+│   │   ├── test3eval.py
+│   │   ├── test4eval.py
+│   │   └── test5eval.py
+│   ├── resultgen/
+│   ├── resulteval/
+│   │   ├── chat/
+│   │   └── claude/
+│   └── usefull/
+│       ├── ingopenrouteur.py
+│       └── listmodelopenrouteur.py
+├── requirements.txt
+├── README.md
+├── VLM Robotics Benchmark — From Single-Object Grasping to High-Level Task Planning.txt
+└── .gitignore
+
 ```
 
 ---
@@ -195,7 +190,30 @@ export OPENROUTER_API_KEY=your_key_here
 ## Requirements
 
 ```bash
-pip install openrouter pandas numpy matplotlib seaborn scipy
+pip install annotated-types==0.7.0
+anyio==4.13.0
+certifi==2026.2.25
+defusedxml==0.7.1
+distro==1.9.0
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.11
+jiter==0.13.0
+numpy==2.4.3
+odfpy==1.4.1
+openai==2.29.0
+openrouter==0.8.0
+pandas==3.0.1
+pydantic==2.12.5
+pydantic_core==2.41.5
+python-dateutil==2.9.0.post0
+six==1.17.0
+sniffio==1.3.1
+tqdm==4.67.3
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+
 ```
 
 ---
@@ -207,10 +225,10 @@ If you use this benchmark, please cite:
 ```bibtex
 @misc{jadot2025vlmbenchmark,
   title   = {Benchmarking Vision-Language Models for Robot Perception and Grasp Planning},
-  author  = {Jadot, Louis},
-  year    = {2025},
+  author  = {Jadot Louis, Anany Dwivedi},
+  year    = {2026},
   school  = {University of Waikato},
-  note    = {Available at: https://github.com/[your-username]/vlm-robotics-benchmark}
+  note    = {Available at: https://github.com/LouisJadot/vlm-robotics-benchmark}
 }
 ```
 
