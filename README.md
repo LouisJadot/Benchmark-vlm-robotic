@@ -14,10 +14,10 @@ This benchmark assesses five state-of-the-art VLMs on their ability to produce s
 
 This repository accompanies the paper:
 
-> Louis Jadot Millet, ..., *VLM Robotics Benchmark — From Single-Object Grasping to High-Level Task Planning*, 2026.
+> Louis Jadot Millet, *VLM Robotics Benchmark — From Single-Object Grasping to High-Level Task Planning*, 2026.
 
 
-**Models evaluated:**
+## Models evaluated 
 
 | Model | Type | Parameters |
 |---|---|---|
