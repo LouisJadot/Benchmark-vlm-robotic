@@ -14,7 +14,7 @@ This benchmark assesses five state-of-the-art VLMs on their ability to produce s
 
 This repository accompanies the paper:
 
-> Louis Jadot Millet, *VLM Robotics Benchmark — From Single-Object Grasping to High-Level Task Planning*, 2026.
+> Louis Jadot Millet, *Benchmarking Vision-Language Models for Robotic Perception and Planning*, 2026.
 
 
 ## Models evaluated 
@@ -123,7 +123,7 @@ benchmark/
 │       └── listmodelopenrouteur.py
 ├── requirements.txt
 ├── README.md
-├── VLM Robotics Benchmark — From Single-Object Grasping to High-Level Task Planning.txt
+├── Benchmarking Vision-Language Models for Robotic Perception and Planning.pdf
 └── .gitignore
 
 ```
